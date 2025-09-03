@@ -1,0 +1,2088 @@
+{
+  "app_hash": "",
+  "app_state": {
+    "assets": {
+      "client_chains": [
+        {
+          "address_length": 20,
+          "chain_id": "0",
+          "finalization_blocks": "10",
+          "imua_chain_index": "0",
+          "layer_zero_chain_id": "0",
+          "meta_info": "The (native) Imuachain",
+          "name": "Imuachain",
+          "signature_type": ""
+        },
+        {
+          "address_length": 20,
+          "chain_id": "0",
+          "finalization_blocks": "10",
+          "imua_chain_index": "0",
+          "layer_zero_chain_id": "40217",
+          "meta_info": "Ethereum-testnet known as Holesky",
+          "name": "Holesky",
+          "signature_type": ""
+        }
+      ],
+      "deposits": [
+        {
+          "deposits": [
+            {
+              "asset_id": "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+              "info": {
+                "pending_undelegation_amount": "0",
+                "total_deposit_amount": "3000000000000000000000",
+                "withdrawable_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "pending_undelegation_amount": "0",
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0"
+              }
+            }
+          ],
+          "staker": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19"
+        },
+        {
+          "deposits": [
+            {
+              "asset_id": "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+              "info": {
+                "pending_undelegation_amount": "0",
+                "total_deposit_amount": "2000000000000000000000",
+                "withdrawable_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "pending_undelegation_amount": "0",
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0"
+              }
+            }
+          ],
+          "staker": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19"
+        },
+        {
+          "deposits": [
+            {
+              "asset_id": "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+              "info": {
+                "pending_undelegation_amount": "0",
+                "total_deposit_amount": "3000000000000000000000",
+                "withdrawable_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "pending_undelegation_amount": "0",
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0"
+              }
+            }
+          ],
+          "staker": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19"
+        },
+        {
+          "deposits": [
+            {
+              "asset_id": "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+              "info": {
+                "pending_undelegation_amount": "0",
+                "total_deposit_amount": "2000000000000000000000",
+                "withdrawable_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "pending_undelegation_amount": "0",
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0"
+              }
+            }
+          ],
+          "staker": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19"
+        }
+      ],
+      "operator_assets": [
+        {
+          "assets_state": [
+            {
+              "asset_id": "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+              "info": {
+                "operator_share": "1500000000000000000000.000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_amount": "1750000000000000000000",
+                "total_share": "1750000000000000000000.000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "operator_share": "0.000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_amount": "0",
+                "total_share": "0.000000000000000000"
+              }
+            }
+          ],
+          "operator": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5"
+        },
+        {
+          "assets_state": [
+            {
+              "asset_id": "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+              "info": {
+                "operator_share": "2000000000000000000000.000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_amount": "2700000000000000000000",
+                "total_share": "2700000000000000000000.000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "operator_share": "0.000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_amount": "0",
+                "total_share": "0.000000000000000000"
+              }
+            }
+          ],
+          "operator": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9"
+        },
+        {
+          "assets_state": [
+            {
+              "asset_id": "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+              "info": {
+                "operator_share": "2500000000000000000000.000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_amount": "2750000000000000000000",
+                "total_share": "2750000000000000000000.000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "operator_share": "0.000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_amount": "0",
+                "total_share": "0.000000000000000000"
+              }
+            }
+          ],
+          "operator": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4"
+        },
+        {
+          "assets_state": [
+            {
+              "asset_id": "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+              "info": {
+                "operator_share": "1500000000000000000000.000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_amount": "2800000000000000000000",
+                "total_share": "2800000000000000000000.000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "operator_share": "0.000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_amount": "0",
+                "total_share": "0.000000000000000000"
+              }
+            }
+          ],
+          "operator": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2"
+        }
+      ],
+      "params": {
+        "gateways": [
+          "0x0000000000000000000000000000000000000901"
+        ]
+      },
+      "tokens": [
+        {
+          "asset_basic_info": {
+            "address": "0x0000000000000000000000000000000000000000",
+            "decimals": 18,
+            "imua_chain_index": "0",
+            "layer_zero_chain_id": "0",
+            "meta_info": "IMUA native to Imuachain",
+            "name": "Native IM token",
+            "symbol": "IMUA"
+          },
+          "staking_total_amount": "0"
+        },
+        {
+          "asset_basic_info": {
+            "address": "0x1e867667ef16111047c2c7f6adf4612bdf80064d",
+            "decimals": 18,
+            "imua_chain_index": "0",
+            "layer_zero_chain_id": "40217",
+            "meta_info": "Imuachain Holesky ETH",
+            "name": "exo ETH",
+            "symbol": "exoETH"
+          },
+          "staking_total_amount": "10000000000000000000000"
+        },
+        {
+          "asset_basic_info": {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18,
+            "imua_chain_index": "1",
+            "layer_zero_chain_id": "40217",
+            "meta_info": "Staked ETH",
+            "name": "Native Staked ETH",
+            "symbol": "ETH"
+          },
+          "staking_total_amount": "0"
+        }
+      ]
+    },
+    "auth": {
+      "accounts": [
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "9",
+            "address": "im1zwcdshxt30uxpd4hntes9872pqdwn0hjzcua7h",
+            "pub_key": null,
+            "sequence": "1"
+          },
+          "code_hash": "0x82d80f763df92e4336825203e3d4607593e865dc01bf11cb2b9bf16882b49e2f"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "4",
+            "address": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "18",
+            "address": "im1glht96kr2rseywuvhhay894qw7ekuc4qzr3h0n",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "erc20",
+          "permissions": [
+            "minter",
+            "burner"
+          ]
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "5",
+            "address": "im1fnzretkr4mvlyjtx4waf0aqm9y3s344eq56q7j",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "7",
+            "address": "im1fevmgjz8kdu40pvgjgx20ralymqtf9tv8w22yl",
+            "pub_key": null,
+            "sequence": "1"
+          },
+          "code_hash": "0x2fa86add0aed31f33a762c9d88e807c475bd51d0f52bd0955754b2608f7e4989"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "14",
+            "address": "im1d23asl5e9p55v9saegptjlzcqm79a4r0cj9h6w",
+            "pub_key": null,
+            "sequence": "1"
+          },
+          "code_hash": "0x00b17219fb16a322d231dc1830789d7936d3547bedd9feed313445001dc21e37"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "0",
+            "address": "im1d4emapzw5m8vs6lupletf0ar9tzuff7z52qc9r",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "8",
+            "address": "im10gxefa2hjtzrf462gzyrcmkc230yqmgjeshy8u",
+            "pub_key": null,
+            "sequence": "1"
+          },
+          "code_hash": "0x5acaad953250bec20933f7c72a25bb03bfa54767ebd3a750396276512c46a79c"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "17",
+            "address": "im10d07y265gmmuvt4z0w9aw880jnsr700jj93gsx",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "gov",
+          "permissions": [
+            "burner"
+          ]
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "2",
+            "address": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "11",
+            "address": "im1j9xhlmr24jxd2sh890983vcx2r29vs7h4nk3g0",
+            "pub_key": null,
+            "sequence": "1"
+          },
+          "code_hash": "0x2fa86add0aed31f33a762c9d88e807c475bd51d0f52bd0955754b2608f7e4989"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "13",
+            "address": "im1n7anma7ypk3wtgx7np8lutxt03ru6z4lrfaqua",
+            "pub_key": null,
+            "sequence": "1"
+          },
+          "code_hash": "0xaff5c3d44fe885f504ee336e72494193625e7273c2bda60c56735688c5d9117b"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "20",
+            "address": "im15lxrsxxrxkr9tt5vumrft0v402a0ku7akrx35z",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "feedistribution",
+          "permissions": []
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "19",
+            "address": "im15lxnnrpy39we7z49e0dm7c0ludl6ajz46hhyfd",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "immint",
+          "permissions": [
+            "minter"
+          ]
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "10",
+            "address": "im1hf0dpxtr85anz0jdtaaacyc960pghf0dwsfpfe",
+            "pub_key": null,
+            "sequence": "1"
+          },
+          "code_hash": "0xbd8a7ea8cfca7b4e5f5041d7d4b17bc317c5ce42cfbc42066a00cf26b43eb53f"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "3",
+            "address": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "12",
+            "address": "im1eggmmczew7ekxyt8q2yx9032zuuhdjs3fqhu5g",
+            "pub_key": null,
+            "sequence": "1"
+          },
+          "code_hash": "0xd5c15df687b16f2ff992fc8d767b4216323184a2bbc6ee2f9c398c318e770891"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "1",
+            "address": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "15",
+            "address": "im1uu9a35rd0fy4ml97s2l6yrmguks98hyzy2ued3",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "delegated_tokens_pool",
+          "permissions": [
+            "burner",
+            "staking"
+          ]
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "account_number": "16",
+            "address": "im1akm6vpm6k3wlwtjhhsh2py0erq6zjusw3r6tzg",
+            "pub_key": null,
+            "sequence": "1"
+          },
+          "code_hash": "0xf57864ddc59620c2d6fda6f28c1c4c5cab7d960b624ac16f5e36e4c46c639f96"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "6",
+            "address": "im17xpfvakm2amg962yls6f84z3kell8c5lc7pddg",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "fee_collector",
+          "permissions": []
+        }
+      ],
+      "params": {
+        "max_memo_characters": "256",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10"
+      }
+    },
+    "authz": {
+      "authorization": []
+    },
+    "avs": {
+      "avs_infos": [
+        {
+          "asset_ids": [
+            "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19"
+          ],
+          "asset_reward_amount_epoch_basis": {},
+          "avs_address": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "avs_owner_addresses": [],
+          "avs_reward": "0.000000000000000000",
+          "avs_slash": "0.000000000000000000",
+          "avs_unbonding_period": "7",
+          "chain_id": "",
+          "epoch_identifier": "minute",
+          "min_opt_in_operators": "0",
+          "min_self_delegation": "0",
+          "min_stake_amount": "0",
+          "min_total_stake_amount": "0",
+          "name": "imuachaintestnet_233",
+          "reward_address": "0x0000000000000000000000000000000000000000",
+          "reward_asset_list": null,
+          "slash_address": "0x0000000000000000000000000000000000000000",
+          "starting_epoch": "0",
+          "task_address": "0x0000000000000000000000000000000000000000",
+          "whitelist_addresses": []
+        }
+      ],
+      "bls_pub_keys": [],
+      "chain_id_infos": [
+        {
+          "avs_address": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "chain_id": "imuachaintestnet_233"
+        }
+      ],
+      "challenge_infos": [],
+      "task_infos": [],
+      "task_nums": [],
+      "task_result_infos": []
+    },
+    "bank": {
+      "balances": [
+        {
+          "address": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "coins": [
+            {
+              "amount": "10000000000000000000000000",
+              "denom": "hua"
+            }
+          ]
+        },
+        {
+          "address": "im1fnzretkr4mvlyjtx4waf0aqm9y3s344eq56q7j",
+          "coins": [
+            {
+              "amount": "10000000000000000000000000",
+              "denom": "hua"
+            }
+          ]
+        },
+        {
+          "address": "im1d4emapzw5m8vs6lupletf0ar9tzuff7z52qc9r",
+          "coins": [
+            {
+              "amount": "10000000000000000000000000",
+              "denom": "hua"
+            }
+          ]
+        },
+        {
+          "address": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "coins": [
+            {
+              "amount": "10000000000000000000000000",
+              "denom": "hua"
+            }
+          ]
+        },
+        {
+          "address": "im15lxrsxxrxkr9tt5vumrft0v402a0ku7akrx35z",
+          "coins": [
+            {
+              "amount": "100",
+              "denom": "hua"
+            }
+          ]
+        },
+        {
+          "address": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "coins": [
+            {
+              "amount": "10000000000000000000000000",
+              "denom": "hua"
+            }
+          ]
+        },
+        {
+          "address": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "coins": [
+            {
+              "amount": "10000000000000000000000000",
+              "denom": "hua"
+            }
+          ]
+        }
+      ],
+      "denom_metadata": [],
+      "params": {
+        "default_send_enabled": true,
+        "send_enabled": []
+      },
+      "send_enabled": [],
+      "supply": [
+        {
+          "amount": "60000000000000000000000100",
+          "denom": "hua"
+        }
+      ]
+    },
+    "capability": {
+      "index": "3",
+      "owners": [
+        {
+          "index": "1",
+          "index_owners": {
+            "owners": [
+              {
+                "module": "ibc",
+                "name": "ports/transfer"
+              },
+              {
+                "module": "transfer",
+                "name": "ports/transfer"
+              }
+            ]
+          }
+        },
+        {
+          "index": "2",
+          "index_owners": {
+            "owners": [
+              {
+                "module": "ibc",
+                "name": "ports/icahost"
+              },
+              {
+                "module": "icahost",
+                "name": "ports/icahost"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "amount": "1000",
+        "denom": "stake"
+      }
+    },
+    "delegation": {
+      "associations": [
+        {
+          "operator": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "staker_id": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19"
+        },
+        {
+          "operator": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "staker_id": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19"
+        },
+        {
+          "operator": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "staker_id": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19"
+        },
+        {
+          "operator": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "staker_id": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19"
+        }
+      ],
+      "delegation_states": [
+        {
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "2000000000000000000000.000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "1000000000000000000000.000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "1500000000000000000000.000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "200000000000000000000.000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "300000000000000000000.000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "500000000000000000000.000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "2500000000000000000000.000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "250000000000000000000.000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "250000000000000000000.000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "1500000000000000000000.000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        }
+      ],
+      "last_undelegation_id": "0",
+      "params": {
+        "instant_undelegation_penalty": 25
+      },
+      "stakers_by_operator": [
+        {
+          "key": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19"
+          ]
+        },
+        {
+          "key": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+          "stakers": [
+            "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+            "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19"
+          ]
+        },
+        {
+          "key": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19"
+          ]
+        },
+        {
+          "key": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+            "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19"
+          ]
+        }
+      ],
+      "undelegations": []
+    },
+    "dogfood": {
+      "consensus_addrs_to_prune": [],
+      "last_total_power": "10000",
+      "opt_out_expiries": [],
+      "params": {
+        "asset_ids": [
+          "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19"
+        ],
+        "epoch_identifier": "minute",
+        "epochs_until_unbonded": 7,
+        "historical_entries": 10000,
+        "max_validators": 100,
+        "min_self_delegation": "0"
+      },
+      "undelegation_maturities": [],
+      "val_set": [
+        {
+          "power": "2800",
+          "public_key": "0x99ec00bda4c0d36035a76896a350b30ab33c67f9cf3b5c0bb86cbab72a49c54b"
+        },
+        {
+          "power": "2750",
+          "public_key": "0x150a4ffd8cf2563c84037a71bcea07f7a60b5d6d639030a627e1c264832ec3cb"
+        },
+        {
+          "power": "2700",
+          "public_key": "0x84f6daec8b5925757d5610e492e73a92e8d22a4086f5b461ce0fe1a87086eebe"
+        },
+        {
+          "power": "1750",
+          "public_key": "0xe0cb02001931bdfd35981986293a5c6266e5555213be266ced989a8345d25dc4"
+        }
+      ]
+    },
+    "epochs": {
+      "epochs": [
+        {
+          "current_epoch": "1",
+          "current_epoch_start_height": "1",
+          "current_epoch_start_time": "2025-06-24T08:06:10Z",
+          "duration": "86400s",
+          "epoch_counting_started": true,
+          "identifier": "day",
+          "start_time": "2025-06-24T08:06:10Z"
+        },
+        {
+          "current_epoch": "1",
+          "current_epoch_start_height": "1",
+          "current_epoch_start_time": "2025-06-24T08:06:10Z",
+          "duration": "3600s",
+          "epoch_counting_started": true,
+          "identifier": "hour",
+          "start_time": "2025-06-24T08:06:10Z"
+        },
+        {
+          "current_epoch": "6",
+          "current_epoch_start_height": "90",
+          "current_epoch_start_time": "2025-06-24T08:11:10Z",
+          "duration": "60s",
+          "epoch_counting_started": true,
+          "identifier": "minute",
+          "start_time": "2025-06-24T08:06:10Z"
+        },
+        {
+          "current_epoch": "1",
+          "current_epoch_start_height": "1",
+          "current_epoch_start_time": "2025-06-24T08:06:10Z",
+          "duration": "604800s",
+          "epoch_counting_started": true,
+          "identifier": "week",
+          "start_time": "2025-06-24T08:06:10Z"
+        }
+      ]
+    },
+    "erc20": {
+      "params": {
+        "enable_erc20": true,
+        "enable_evm_hook": true
+      },
+      "token_pairs": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "evm": {
+      "accounts": [
+        {
+          "address": "0x13b0D85CcB8bf860b6b79AF3029fCA081AE9beF2",
+          "code": "6080604052600436106100a05760003560e01c80636447045411610064578063644704541461016a57806366cfa0571461018a578063715018a6146101aa5780638456cb59146101bf5780638da5cb5b146101d4578063f2fde38b146101f257600080fd5b8063076c37b2146100ac5780633f4ba83a146100ce578063481286e6146100e357806356299481146101205780635c975abb1461014057600080fd5b366100a757005b600080fd5b3480156100b857600080fd5b506100cc6100c736600461077b565b610212565b005b3480156100da57600080fd5b506100cc610277565b3480156100ef57600080fd5b506101036100fe36600461077b565b6102ab565b6040516001600160a01b0390911681526020015b60405180910390f35b34801561012c57600080fd5b5061010361013b3660046107b2565b610311565b34801561014c57600080fd5b50600054600160a01b900460ff166040519015158152602001610117565b34801561017657600080fd5b506100cc6101853660046107eb565b610372565b34801561019657600080fd5b506100cc6101a536600461081e565b6103de565b3480156101b657600080fd5b506100cc610419565b3480156101cb57600080fd5b506100cc61044d565b3480156101e057600080fd5b506000546001600160a01b0316610103565b3480156101fe57600080fd5b506100cc61020d3660046107eb565b61047f565b600054600160a01b900460ff16156102455760405162461bcd60e51b815260040161023c906108e2565b60405180910390fd5b61027282826040518060200161025a9061076e565b601f1982820381018352601f9091011660405261051a565b505050565b6000546001600160a01b031633146102a15760405162461bcd60e51b815260040161023c9061090c565b6102a961061c565b565b600061030a8383604080516001600160f81b03196020808301919091526bffffffffffffffffffffffff193060601b16602183015260358201859052605580830185905283518084039091018152607590920190925280519101206000905b9392505050565b604080516001600160f81b03196020808301919091526bffffffffffffffffffffffff19606085901b16602183015260358201869052605580830186905283518084039091018152607590920190925280519101206000905b949350505050565b6000546001600160a01b0316331461039c5760405162461bcd60e51b815260040161023c9061090c565b6040516001600160a01b038216904780156108fc02916000818181858888f193505050501580156103d1573d6000803e3d6000fd5b50806001600160a01b0316ff5b600054600160a01b900460ff16156104085760405162461bcd60e51b815260040161023c906108e2565b61041383838361051a565b50505050565b6000546001600160a01b031633146104435760405162461bcd60e51b815260040161023c9061090c565b6102a960006106b9565b6000546001600160a01b031633146104775760405162461bcd60e51b815260040161023c9061090c565b6102a9610709565b6000546001600160a01b031633146104a95760405162461bcd60e51b815260040161023c9061090c565b6001600160a01b03811661050e5760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b606482015260840161023c565b610517816106b9565b50565b6000808447101561056d5760405162461bcd60e51b815260206004820152601d60248201527f437265617465323a20696e73756666696369656e742062616c616e6365000000604482015260640161023c565b82516105bb5760405162461bcd60e51b815260206004820181905260248201527f437265617465323a2062797465636f6465206c656e677468206973207a65726f604482015260640161023c565b8383516020850187f590506001600160a01b03811661036a5760405162461bcd60e51b815260206004820152601960248201527f437265617465323a204661696c6564206f6e206465706c6f7900000000000000604482015260640161023c565b600054600160a01b900460ff1661066c5760405162461bcd60e51b815260206004820152601460248201527314185d5cd8589b194e881b9bdd081c185d5cd95960621b604482015260640161023c565b6000805460ff60a01b191690557f5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa335b6040516001600160a01b03909116815260200160405180910390a1565b600080546001600160a01b038381166001600160a01b0319831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b600054600160a01b900460ff16156107335760405162461bcd60e51b815260040161023c906108e2565b6000805460ff60a01b1916600160a01b1790557f62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a25861069c3390565b6101348061094283390190565b6000806040838503121561078e57600080fd5b50508035926020909101359150565b6001600160a01b038116811461051757600080fd5b6000806000606084860312156107c757600080fd5b833592506020840135915060408401356107e08161079d565b809150509250925092565b6000602082840312156107fd57600080fd5b813561030a8161079d565b634e487b7160e01b600052604160045260246000fd5b60008060006060848603121561083357600080fd5b8335925060208401359150604084013567ffffffffffffffff8082111561085957600080fd5b818601915086601f83011261086d57600080fd5b81358181111561087f5761087f610808565b604051601f8201601f19908116603f011681019083821181831017156108a7576108a7610808565b816040528281528960208487010111156108c057600080fd5b8260208601602083013760006020848301015280955050505050509250925092565b60208082526010908201526f14185d5cd8589b194e881c185d5cd95960821b604082015260600190565b6020808252818101527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e657260408201526060019056fe608060405234801561001057600080fd5b50610114806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063249cb3fa14602d575b600080fd5b603c603836600460a4565b604e565b60405190815260200160405180910390f35b6000828152602081815260408083206001600160a01b038516845290915281205460ff16607b576000609d565b7fa2ef4600d742022d532d4747cb3547474667d6f13804902513b2ec01c848f4b45b9392505050565b6000806040838503121560b657600080fd5b8235915060208301356001600160a01b038116811460d357600080fd5b80915050925092905056fea2646970667358221220a5a496558254ee0cf3c67a46f475274d2a4e7c3fcd0a6926c382539e9f4e747f64736f6c63430008090033a2646970667358221220fdb6c1c38bddbb4787e1e74d1795cf7e08f9f80a19edf789e4629618c39d0bbb64736f6c63430008090033",
+          "storage": []
+        },
+        {
+          "address": "0x2AB68E90A33Eda876023C310ddd7cb6C7532fAb7",
+          "code": "",
+          "storage": []
+        },
+        {
+          "address": "0x4cC43CAEc3aeD9F24966abBA97F41B292308D6b9",
+          "code": "",
+          "storage": []
+        },
+        {
+          "address": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+          "code": "7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe03601600081602082378035828234f58015156039578182fd5b8082525050506014600cf3",
+          "storage": []
+        },
+        {
+          "address": "0x6aA3D87e99286946161dCA02B97C5806fC5eD46F",
+          "code": "6080604052600436106100295760003560e01c806350f1c4641461002e578063cdcb760a14610077575b600080fd5b34801561003a57600080fd5b5061004e610049366004610489565b61008a565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b61004e6100853660046104fd565b6100ee565b6040517fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606084901b166020820152603481018290526000906054016040516020818303038152906040528051906020012091506100e78261014c565b9392505050565b6040517fffffffffffffffffffffffffffffffffffffffff0000000000000000000000003360601b166020820152603481018390526000906054016040516020818303038152906040528051906020012092506100e78383346102b2565b604080518082018252601081527f67363d3d37363d34f03d5260086018f30000000000000000000000000000000060209182015290517fff00000000000000000000000000000000000000000000000000000000000000918101919091527fffffffffffffffffffffffffffffffffffffffff0000000000000000000000003060601b166021820152603581018290527f21c35dbe1b344a2488cf3321d6ce542f8e9f305544ff09e4993a62319a497c1f60558201526000908190610228906075015b6040516020818303038152906040528051906020012090565b6040517fd69400000000000000000000000000000000000000000000000000000000000060208201527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606083901b1660228201527f010000000000000000000000000000000000000000000000000000000000000060368201529091506100e79060370161020f565b6000806040518060400160405280601081526020017f67363d3d37363d34f03d5260086018f30000000000000000000000000000000081525090506000858251602084016000f5905073ffffffffffffffffffffffffffffffffffffffff811661037d576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601160248201527f4445504c4f594d454e545f4641494c454400000000000000000000000000000060448201526064015b60405180910390fd5b6103868661014c565b925060008173ffffffffffffffffffffffffffffffffffffffff1685876040516103b091906105d6565b60006040518083038185875af1925050503d80600081146103ed576040519150601f19603f3d011682016040523d82523d6000602084013e6103f2565b606091505b50509050808015610419575073ffffffffffffffffffffffffffffffffffffffff84163b15155b61047f576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601560248201527f494e495449414c495a4154494f4e5f4641494c454400000000000000000000006044820152606401610374565b5050509392505050565b6000806040838503121561049c57600080fd5b823573ffffffffffffffffffffffffffffffffffffffff811681146104c057600080fd5b946020939093013593505050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b6000806040838503121561051057600080fd5b82359150602083013567ffffffffffffffff8082111561052f57600080fd5b818501915085601f83011261054357600080fd5b813581811115610555576105556104ce565b604051601f82017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0908116603f0116810190838211818310171561059b5761059b6104ce565b816040528281528860208487010111156105b457600080fd5b8260208601602083013760006020848301015280955050505050509250929050565b6000825160005b818110156105f757602081860181015185830152016105dd565b50600092019182525091905056fea2646970667358221220fd377c185926b3110b7e8a544f897646caf36a0e82b2629de851045e2a5f937764736f6c63430008100033",
+          "storage": []
+        },
+        {
+          "address": "0x6d73Be844EA6cEc86bFc0fF2b4BFa32Ac5C4a7c2",
+          "code": "",
+          "storage": []
+        },
+        {
+          "address": "0x7A0D94F55792C434d74a40883C6ed8545E406D12",
+          "code": "60003681823780368234f58015156014578182fd5b80825250506014600cf3",
+          "storage": []
+        },
+        {
+          "address": "0x884958ffB23885a13B5D51617f05F2B8b20f0405",
+          "code": "",
+          "storage": []
+        },
+        {
+          "address": "0x914d7Fec6aaC8cd542e72Bca78B30650d45643d7",
+          "code": "7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe03601600081602082378035828234f58015156039578182fd5b8082525050506014600cf3",
+          "storage": []
+        },
+        {
+          "address": "0x9fBB3DF7C40Da2e5A0dE984fFE2CCB7C47cd0ABf",
+          "code": "6080604052600436106100295760003560e01c806350f1c4641461002e578063cdcb760a14610077575b600080fd5b34801561003a57600080fd5b5061004e610049366004610489565b61008a565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b61004e6100853660046104fd565b6100ee565b6040517fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606084901b166020820152603481018290526000906054016040516020818303038152906040528051906020012091506100e78261014c565b9392505050565b6040517fffffffffffffffffffffffffffffffffffffffff0000000000000000000000003360601b166020820152603481018390526000906054016040516020818303038152906040528051906020012092506100e78383346102b2565b604080518082018252601081527f67363d3d37363d34f03d5260086018f30000000000000000000000000000000060209182015290517fff00000000000000000000000000000000000000000000000000000000000000918101919091527fffffffffffffffffffffffffffffffffffffffff0000000000000000000000003060601b166021820152603581018290527f21c35dbe1b344a2488cf3321d6ce542f8e9f305544ff09e4993a62319a497c1f60558201526000908190610228906075015b6040516020818303038152906040528051906020012090565b6040517fd69400000000000000000000000000000000000000000000000000000000000060208201527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606083901b1660228201527f010000000000000000000000000000000000000000000000000000000000000060368201529091506100e79060370161020f565b6000806040518060400160405280601081526020017f67363d3d37363d34f03d5260086018f30000000000000000000000000000000081525090506000858251602084016000f5905073ffffffffffffffffffffffffffffffffffffffff811661037d576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601160248201527f4445504c4f594d454e545f4641494c454400000000000000000000000000000060448201526064015b60405180910390fd5b6103868661014c565b925060008173ffffffffffffffffffffffffffffffffffffffff1685876040516103b091906105d6565b60006040518083038185875af1925050503d80600081146103ed576040519150601f19603f3d011682016040523d82523d6000602084013e6103f2565b606091505b50509050808015610419575073ffffffffffffffffffffffffffffffffffffffff84163b15155b61047f576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601560248201527f494e495449414c495a4154494f4e5f4641494c454400000000000000000000006044820152606401610374565b5050509392505050565b6000806040838503121561049c57600080fd5b823573ffffffffffffffffffffffffffffffffffffffff811681146104c057600080fd5b946020939093013593505050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b6000806040838503121561051057600080fd5b82359150602083013567ffffffffffffffff8082111561052f57600080fd5b818501915085601f83011261054357600080fd5b813581811115610555576105556104ce565b604051601f82017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0908116603f0116810190838211818310171561059b5761059b6104ce565b816040528281528860208487010111156105b457600080fd5b8260208601602083013760006020848301015280955050505050509250929050565b6000825160005b818110156105f757602081860181015185830152016105dd565b50600092019182525091905056fea2646970667358221220a194c2eaa665b9a3b7df63a08195224328c42d9f7f651494deafa8b9a230d5ee64736f6c63430008160033",
+          "storage": []
+        },
+        {
+          "address": "0xba5Ed099633D3B313e4D5F7bdc1305d3c28ba5Ed",
+          "code": "60806040526004361061018a5760003560e01c806381503da1116100d6578063d323826a1161007f578063e96deee411610059578063e96deee414610395578063f5745aba146103a8578063f9664498146103bb57600080fd5b8063d323826a1461034f578063ddda0acb1461036f578063e437252a1461038257600080fd5b80639c36a286116100b05780639c36a28614610316578063a7db93f214610329578063c3fe107b1461033c57600080fd5b806381503da1146102d0578063890c283b146102e357806398e810771461030357600080fd5b80632f990e3f116101385780636cec2536116101125780636cec25361461027d57806374637a7a1461029d5780637f565360146102bd57600080fd5b80632f990e3f1461023757806331a7c8c81461024a57806342d654fc1461025d57600080fd5b806327fe18221161016957806327fe1822146101f15780632852527a1461020457806328ddd0461461021757600080fd5b8062d84acb1461018f57806326307668146101cb57806326a32fc7146101de575b600080fd5b6101a261019d366004612915565b6103ce565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b6101a26101d9366004612994565b6103e6565b6101a26101ec3660046129db565b610452565b6101a26101ff3660046129db565b6104de565b6101a2610212366004612a39565b610539565b34801561022357600080fd5b506101a2610232366004612a90565b6106fe565b6101a2610245366004612aa9565b61072a565b6101a2610258366004612aa9565b6107bb565b34801561026957600080fd5b506101a2610278366004612b1e565b6107c9565b34801561028957600080fd5b506101a2610298366004612a90565b610823565b3480156102a957600080fd5b506101a26102b8366004612b4a565b61084f565b6101a26102cb3660046129db565b611162565b6101a26102de366004612b74565b6111e8565b3480156102ef57600080fd5b506101a26102fe366004612bac565b611276565b6101a2610311366004612bce565b6112a3565b6101a2610324366004612994565b611505565b6101a2610337366004612c49565b6116f1565b6101a261034a366004612aa9565b611964565b34801561035b57600080fd5b506101a261036a366004612cd9565b6119ed565b6101a261037d366004612c49565b611a17565b6101a2610390366004612bce565b611e0c565b6101a26103a3366004612915565b611e95565b6101a26103b6366004612bce565b611ea4565b6101a26103c9366004612b74565b611f2d565b60006103dd8585858533611a17565b95945050505050565b6000806103f2846120db565b90508083516020850134f59150610408826123d3565b604051819073ffffffffffffffffffffffffffffffffffffffff8416907fb8fda7e00c6b06a2b54e58521bc5894fee35f1090e5a3bb6390bfe2b98b497f790600090a35092915050565b60006104d86104d260408051437fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe08101406020830152419282019290925260608101919091524260808201524460a08201524660c08201523360e08201526000906101000160405160208183030381529060405280519060200120905090565b836103e6565b92915050565b600081516020830134f090506104f3816123d3565b60405173ffffffffffffffffffffffffffffffffffffffff8216907f4db17dd5e4732fb6da34a148104a592783ca119a1e7bb8829eba6cbadef0b51190600090a2919050565b600080610545856120db565b905060008460601b90506040517f3d602d80600a3d3981f3363d3d373d3d3d363d7300000000000000000000000081528160148201527f5af43d82803e903d91602b57fd5bf300000000000000000000000000000000006028820152826037826000f593505073ffffffffffffffffffffffffffffffffffffffff8316610635576040517fc05cee7a00000000000000000000000000000000000000000000000000000000815273ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed1660048201526024015b60405180910390fd5b604051829073ffffffffffffffffffffffffffffffffffffffff8516907fb8fda7e00c6b06a2b54e58521bc5894fee35f1090e5a3bb6390bfe2b98b497f790600090a36000808473ffffffffffffffffffffffffffffffffffffffff1634876040516106a19190612d29565b60006040518083038185875af1925050503d80600081146106de576040519150601f19603f3d011682016040523d82523d6000602084013e6106e3565b606091505b50915091506106f382828961247d565b505050509392505050565b60006104d87f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed8361084f565b60006107b36107aa60408051437fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe08101406020830152419282019290925260608101919091524260808201524460a08201524660c08201523360e08201526000906101000160405160208183030381529060405280519060200120905090565b85858533611a17565b949350505050565b60006107b3848484336112a3565b60006040518260005260ff600b53836020527f21c35dbe1b344a2488cf3321d6ce542f8e9f305544ff09e4993a62319a497c1f6040526055600b20601452806040525061d694600052600160345350506017601e20919050565b60006104d8827f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed6107c9565b600060607f9400000000000000000000000000000000000000000000000000000000000000610887600167ffffffffffffffff612d45565b67ffffffffffffffff16841115610902576040517f3c55ab3b00000000000000000000000000000000000000000000000000000000815273ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed16600482015260240161062c565b836000036109c7576040517fd60000000000000000000000000000000000000000000000000000000000000060208201527fff00000000000000000000000000000000000000000000000000000000000000821660218201527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606087901b1660228201527f800000000000000000000000000000000000000000000000000000000000000060368201526037015b6040516020818303038152906040529150611152565b607f8411610a60576040517fd60000000000000000000000000000000000000000000000000000000000000060208201527fff0000000000000000000000000000000000000000000000000000000000000080831660218301527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606088901b16602283015260f886901b1660368201526037016109b1565b60ff8411610b1f576040517fd70000000000000000000000000000000000000000000000000000000000000060208201527fff0000000000000000000000000000000000000000000000000000000000000080831660218301527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606088901b1660228301527f8100000000000000000000000000000000000000000000000000000000000000603683015260f886901b1660378201526038016109b1565b61ffff8411610bff576040517fd80000000000000000000000000000000000000000000000000000000000000060208201527fff00000000000000000000000000000000000000000000000000000000000000821660218201527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606087901b1660228201527f820000000000000000000000000000000000000000000000000000000000000060368201527fffff00000000000000000000000000000000000000000000000000000000000060f086901b1660378201526039016109b1565b62ffffff8411610ce0576040517fd90000000000000000000000000000000000000000000000000000000000000060208201527fff00000000000000000000000000000000000000000000000000000000000000821660218201527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606087901b1660228201527f830000000000000000000000000000000000000000000000000000000000000060368201527fffffff000000000000000000000000000000000000000000000000000000000060e886901b166037820152603a016109b1565b63ffffffff8411610dc2576040517fda0000000000000000000000000000000000000000000000000000000000000060208201527fff00000000000000000000000000000000000000000000000000000000000000821660218201527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606087901b1660228201527f840000000000000000000000000000000000000000000000000000000000000060368201527fffffffff0000000000000000000000000000000000000000000000000000000060e086901b166037820152603b016109b1565b64ffffffffff8411610ea5576040517fdb0000000000000000000000000000000000000000000000000000000000000060208201527fff00000000000000000000000000000000000000000000000000000000000000821660218201527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606087901b1660228201527f850000000000000000000000000000000000000000000000000000000000000060368201527fffffffffff00000000000000000000000000000000000000000000000000000060d886901b166037820152603c016109b1565b65ffffffffffff8411610f89576040517fdc0000000000000000000000000000000000000000000000000000000000000060208201527fff00000000000000000000000000000000000000000000000000000000000000821660218201527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606087901b1660228201527f860000000000000000000000000000000000000000000000000000000000000060368201527fffffffffffff000000000000000000000000000000000000000000000000000060d086901b166037820152603d016109b1565b66ffffffffffffff841161106e576040517fdd0000000000000000000000000000000000000000000000000000000000000060208201527fff00000000000000000000000000000000000000000000000000000000000000821660218201527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606087901b1660228201527f870000000000000000000000000000000000000000000000000000000000000060368201527fffffffffffffff0000000000000000000000000000000000000000000000000060c886901b166037820152603e016109b1565b6040517fde0000000000000000000000000000000000000000000000000000000000000060208201527fff00000000000000000000000000000000000000000000000000000000000000821660218201527fffffffffffffffffffffffffffffffffffffffff000000000000000000000000606087901b1660228201527f880000000000000000000000000000000000000000000000000000000000000060368201527fffffffffffffffff00000000000000000000000000000000000000000000000060c086901b166037820152603f0160405160208183030381529060405291505b5080516020909101209392505050565b60006104d86111e260408051437fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe08101406020830152419282019290925260608101919091524260808201524460a08201524660c08201523360e08201526000906101000160405160208183030381529060405280519060200120905090565b83611505565b600061126f61126860408051437fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe08101406020830152419282019290925260608101919091524260808201524460a08201524660c08201523360e08201526000906101000160405160208183030381529060405280519060200120905090565b8484610539565b9392505050565b600061126f83837f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed6119ed565b60008451602086018451f090506112b9816123d3565b60405173ffffffffffffffffffffffffffffffffffffffff8216907f4db17dd5e4732fb6da34a148104a592783ca119a1e7bb8829eba6cbadef0b51190600090a26000808273ffffffffffffffffffffffffffffffffffffffff168560200151876040516113279190612d29565b60006040518083038185875af1925050503d8060008114611364576040519150601f19603f3d011682016040523d82523d6000602084013e611369565b606091505b5091509150816113c9577f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed816040517fa57ca23900000000000000000000000000000000000000000000000000000000815260040161062c929190612d94565b73ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed1631156114fb578373ffffffffffffffffffffffffffffffffffffffff167f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed73ffffffffffffffffffffffffffffffffffffffff163160405160006040518083038185875af1925050503d8060008114611495576040519150601f19603f3d011682016040523d82523d6000602084013e61149a565b606091505b509092509050816114fb577f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed816040517fc2b3f44500000000000000000000000000000000000000000000000000000000815260040161062c929190612d94565b5050949350505050565b600080611511846120db565b905060006040518060400160405280601081526020017f67363d3d37363d34f03d5260086018f30000000000000000000000000000000081525090506000828251602084016000f5905073ffffffffffffffffffffffffffffffffffffffff81166115e0576040517fc05cee7a00000000000000000000000000000000000000000000000000000000815273ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed16600482015260240161062c565b604051839073ffffffffffffffffffffffffffffffffffffffff8316907f2feea65dd4e9f9cbd86b74b7734210c59a1b2981b5b137bd0ee3e208200c906790600090a361162c83610823565b935060008173ffffffffffffffffffffffffffffffffffffffff1634876040516116569190612d29565b60006040518083038185875af1925050503d8060008114611693576040519150601f19603f3d011682016040523d82523d6000602084013e611698565b606091505b505090506116a681866124ff565b60405173ffffffffffffffffffffffffffffffffffffffff8616907f4db17dd5e4732fb6da34a148104a592783ca119a1e7bb8829eba6cbadef0b51190600090a25050505092915050565b6000806116fd876120db565b9050808651602088018651f59150611714826123d3565b604051819073ffffffffffffffffffffffffffffffffffffffff8416907fb8fda7e00c6b06a2b54e58521bc5894fee35f1090e5a3bb6390bfe2b98b497f790600090a36000808373ffffffffffffffffffffffffffffffffffffffff168660200151886040516117849190612d29565b60006040518083038185875af1925050503d80600081146117c1576040519150601f19603f3d011682016040523d82523d6000602084013e6117c6565b606091505b509150915081611826577f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed816040517fa57ca23900000000000000000000000000000000000000000000000000000000815260040161062c929190612d94565b73ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed163115611958578473ffffffffffffffffffffffffffffffffffffffff167f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed73ffffffffffffffffffffffffffffffffffffffff163160405160006040518083038185875af1925050503d80600081146118f2576040519150601f19603f3d011682016040523d82523d6000602084013e6118f7565b606091505b50909250905081611958577f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed816040517fc2b3f44500000000000000000000000000000000000000000000000000000000815260040161062c929190612d94565b50505095945050505050565b60006107b36119e460408051437fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe08101406020830152419282019290925260608101919091524260808201524460a08201524660c08201523360e08201526000906101000160405160208183030381529060405280519060200120905090565b858585336116f1565b6000604051836040820152846020820152828152600b8101905060ff815360559020949350505050565b600080611a23876120db565b905060006040518060400160405280601081526020017f67363d3d37363d34f03d5260086018f30000000000000000000000000000000081525090506000828251602084016000f5905073ffffffffffffffffffffffffffffffffffffffff8116611af2576040517fc05cee7a00000000000000000000000000000000000000000000000000000000815273ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed16600482015260240161062c565b604051839073ffffffffffffffffffffffffffffffffffffffff8316907f2feea65dd4e9f9cbd86b74b7734210c59a1b2981b5b137bd0ee3e208200c906790600090a3611b3e83610823565b935060008173ffffffffffffffffffffffffffffffffffffffff1687600001518a604051611b6c9190612d29565b60006040518083038185875af1925050503d8060008114611ba9576040519150601f19603f3d011682016040523d82523d6000602084013e611bae565b606091505b50509050611bbc81866124ff565b60405173ffffffffffffffffffffffffffffffffffffffff8616907f4db17dd5e4732fb6da34a148104a592783ca119a1e7bb8829eba6cbadef0b51190600090a260608573ffffffffffffffffffffffffffffffffffffffff1688602001518a604051611c299190612d29565b60006040518083038185875af1925050503d8060008114611c66576040519150601f19603f3d011682016040523d82523d6000602084013e611c6b565b606091505b50909250905081611ccc577f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed816040517fa57ca23900000000000000000000000000000000000000000000000000000000815260040161062c929190612d94565b73ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed163115611dfe578673ffffffffffffffffffffffffffffffffffffffff167f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed73ffffffffffffffffffffffffffffffffffffffff163160405160006040518083038185875af1925050503d8060008114611d98576040519150601f19603f3d011682016040523d82523d6000602084013e611d9d565b606091505b50909250905081611dfe577f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed816040517fc2b3f44500000000000000000000000000000000000000000000000000000000815260040161062c929190612d94565b505050505095945050505050565b60006103dd611e8c60408051437fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe08101406020830152419282019290925260608101919091524260808201524460a08201524660c08201523360e08201526000906101000160405160208183030381529060405280519060200120905090565b868686866116f1565b60006103dd85858585336116f1565b60006103dd611f2460408051437fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe08101406020830152419282019290925260608101919091524260808201524460a08201524660c08201523360e08201526000906101000160405160208183030381529060405280519060200120905090565b86868686611a17565b6000808360601b90506040517f3d602d80600a3d3981f3363d3d373d3d3d363d7300000000000000000000000081528160148201527f5af43d82803e903d91602b57fd5bf3000000000000000000000000000000000060288201526037816000f092505073ffffffffffffffffffffffffffffffffffffffff8216612016576040517fc05cee7a00000000000000000000000000000000000000000000000000000000815273ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed16600482015260240161062c565b60405173ffffffffffffffffffffffffffffffffffffffff8316907f4db17dd5e4732fb6da34a148104a592783ca119a1e7bb8829eba6cbadef0b51190600090a26000808373ffffffffffffffffffffffffffffffffffffffff1634866040516120809190612d29565b60006040518083038185875af1925050503d80600081146120bd576040519150601f19603f3d011682016040523d82523d6000602084013e6120c2565b606091505b50915091506120d282828861247d565b50505092915050565b60008060006120e9846125b3565b9092509050600082600281111561210257612102612e02565b1480156121205750600081600281111561211e5761211e612e02565b145b1561215e57604080513360208201524691810191909152606081018590526080016040516020818303038152906040528051906020012092506123cc565b600082600281111561217257612172612e02565b1480156121905750600181600281111561218e5761218e612e02565b145b156121b0576121a9338560009182526020526040902090565b92506123cc565b60008260028111156121c4576121c4612e02565b03612233576040517f13b3a2a100000000000000000000000000000000000000000000000000000000815273ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed16600482015260240161062c565b600182600281111561224757612247612e02565b1480156122655750600081600281111561226357612263612e02565b145b1561227e576121a9468560009182526020526040902090565b600182600281111561229257612292612e02565b1480156122b0575060028160028111156122ae576122ae612e02565b145b1561231f576040517f13b3a2a100000000000000000000000000000000000000000000000000000000815273ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed16600482015260240161062c565b61239a60408051437fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe08101406020830152419282019290925260608101919091524260808201524460a08201524660c08201523360e08201526000906101000160405160208183030381529060405280519060200120905090565b84036123a657836123c9565b604080516020810186905201604051602081830303815290604052805190602001205b92505b5050919050565b73ffffffffffffffffffffffffffffffffffffffff8116158061240b575073ffffffffffffffffffffffffffffffffffffffff81163b155b1561247a576040517fc05cee7a00000000000000000000000000000000000000000000000000000000815273ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed16600482015260240161062c565b50565b82158061249f575073ffffffffffffffffffffffffffffffffffffffff81163b155b156124fa577f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed826040517fa57ca23900000000000000000000000000000000000000000000000000000000815260040161062c929190612d94565b505050565b811580612520575073ffffffffffffffffffffffffffffffffffffffff8116155b80612540575073ffffffffffffffffffffffffffffffffffffffff81163b155b156125af576040517fc05cee7a00000000000000000000000000000000000000000000000000000000815273ffffffffffffffffffffffffffffffffffffffff7f000000000000000000000000ba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed16600482015260240161062c565b5050565b600080606083901c3314801561261057508260141a60f81b7effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167f0100000000000000000000000000000000000000000000000000000000000000145b1561262057506000905080915091565b606083901c3314801561265a57507fff00000000000000000000000000000000000000000000000000000000000000601484901a60f81b16155b1561266b5750600090506001915091565b33606084901c036126825750600090506002915091565b606083901c1580156126db57508260141a60f81b7effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167f0100000000000000000000000000000000000000000000000000000000000000145b156126ec5750600190506000915091565b606083901c15801561272557507fff00000000000000000000000000000000000000000000000000000000000000601484901a60f81b16155b1561273557506001905080915091565b606083901c61274a5750600190506002915091565b8260141a60f81b7effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167f0100000000000000000000000000000000000000000000000000000000000000036127a55750600290506000915091565b8260141a60f81b7effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff19166000036127e15750600290506001915091565b506002905080915091565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b600082601f83011261282c57600080fd5b813567ffffffffffffffff80821115612847576128476127ec565b604051601f83017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0908116603f0116810190828211818310171561288d5761288d6127ec565b816040528381528660208588010111156128a657600080fd5b836020870160208301376000602085830101528094505050505092915050565b6000604082840312156128d857600080fd5b6040516040810181811067ffffffffffffffff821117156128fb576128fb6127ec565b604052823581526020928301359281019290925250919050565b60008060008060a0858703121561292b57600080fd5b84359350602085013567ffffffffffffffff8082111561294a57600080fd5b6129568883890161281b565b9450604087013591508082111561296c57600080fd5b506129798782880161281b565b92505061298986606087016128c6565b905092959194509250565b600080604083850312156129a757600080fd5b82359150602083013567ffffffffffffffff8111156129c557600080fd5b6129d18582860161281b565b9150509250929050565b6000602082840312156129ed57600080fd5b813567ffffffffffffffff811115612a0457600080fd5b6107b38482850161281b565b803573ffffffffffffffffffffffffffffffffffffffff81168114612a3457600080fd5b919050565b600080600060608486031215612a4e57600080fd5b83359250612a5e60208501612a10565b9150604084013567ffffffffffffffff811115612a7a57600080fd5b612a868682870161281b565b9150509250925092565b600060208284031215612aa257600080fd5b5035919050565b600080600060808486031215612abe57600080fd5b833567ffffffffffffffff80821115612ad657600080fd5b612ae28783880161281b565b94506020860135915080821115612af857600080fd5b50612b058682870161281b565b925050612b1585604086016128c6565b90509250925092565b60008060408385031215612b3157600080fd5b82359150612b4160208401612a10565b90509250929050565b60008060408385031215612b5d57600080fd5b612b6683612a10565b946020939093013593505050565b60008060408385031215612b8757600080fd5b612b9083612a10565b9150602083013567ffffffffffffffff8111156129c557600080fd5b60008060408385031215612bbf57600080fd5b50508035926020909101359150565b60008060008060a08587031215612be457600080fd5b843567ffffffffffffffff80821115612bfc57600080fd5b612c088883890161281b565b95506020870135915080821115612c1e57600080fd5b50612c2b8782880161281b565b935050612c3b86604087016128c6565b915061298960808601612a10565b600080600080600060c08688031215612c6157600080fd5b85359450602086013567ffffffffffffffff80821115612c8057600080fd5b612c8c89838a0161281b565b95506040880135915080821115612ca257600080fd5b50612caf8882890161281b565b935050612cbf87606088016128c6565b9150612ccd60a08701612a10565b90509295509295909350565b600080600060608486031215612cee57600080fd5b8335925060208401359150612b1560408501612a10565b60005b83811015612d20578181015183820152602001612d08565b50506000910152565b60008251612d3b818460208701612d05565b9190910192915050565b67ffffffffffffffff828116828216039080821115612d8d577f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b5092915050565b73ffffffffffffffffffffffffffffffffffffffff831681526040602082015260008251806040840152612dcf816060850160208701612d05565b601f017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe016919091016060019392505050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052602160045260246000fdfea164736f6c6343000817000a",
+          "storage": []
+        },
+        {
+          "address": "0xbca20b69c8f433af9D11847215fbBd847cDC7A89",
+          "code": "",
+          "storage": []
+        },
+        {
+          "address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+          "code": "6080604052600436106100f35760003560e01c80634d2301cc1161008a578063a8b0574e11610059578063a8b0574e1461025a578063bce38bd714610275578063c3077fa914610288578063ee82ac5e1461029b57600080fd5b80634d2301cc146101ec57806372425d9d1461022157806382ad56cb1461023457806386d516e81461024757600080fd5b80633408e470116100c65780633408e47014610191578063399542e9146101a45780633e64a696146101c657806342cbb15c146101d957600080fd5b80630f28c97d146100f8578063174dea711461011a578063252dba421461013a57806327e86d6e1461015b575b600080fd5b34801561010457600080fd5b50425b6040519081526020015b60405180910390f35b61012d610128366004610a85565b6102ba565b6040516101119190610bbe565b61014d610148366004610a85565b6104ef565b604051610111929190610bd8565b34801561016757600080fd5b50437fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0140610107565b34801561019d57600080fd5b5046610107565b6101b76101b2366004610c60565b610690565b60405161011193929190610cba565b3480156101d257600080fd5b5048610107565b3480156101e557600080fd5b5043610107565b3480156101f857600080fd5b50610107610207366004610ce2565b73ffffffffffffffffffffffffffffffffffffffff163190565b34801561022d57600080fd5b5044610107565b61012d610242366004610a85565b6106ab565b34801561025357600080fd5b5045610107565b34801561026657600080fd5b50604051418152602001610111565b61012d610283366004610c60565b61085a565b6101b7610296366004610a85565b610a1a565b3480156102a757600080fd5b506101076102b6366004610d18565b4090565b60606000828067ffffffffffffffff8111156102d8576102d8610d31565b60405190808252806020026020018201604052801561031e57816020015b6040805180820190915260008152606060208201528152602001906001900390816102f65790505b5092503660005b8281101561047757600085828151811061034157610341610d60565b6020026020010151905087878381811061035d5761035d610d60565b905060200281019061036f9190610d8f565b6040810135958601959093506103886020850185610ce2565b73ffffffffffffffffffffffffffffffffffffffff16816103ac6060870187610dcd565b6040516103ba929190610e32565b60006040518083038185875af1925050503d80600081146103f7576040519150601f19603f3d011682016040523d82523d6000602084013e6103fc565b606091505b50602080850191909152901515808452908501351761046d577f08c379a000000000000000000000000000000000000000000000000000000000600052602060045260176024527f4d756c746963616c6c333a2063616c6c206661696c656400000000000000000060445260846000fd5b5050600101610325565b508234146104e6576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601a60248201527f4d756c746963616c6c333a2076616c7565206d69736d6174636800000000000060448201526064015b60405180910390fd5b50505092915050565b436060828067ffffffffffffffff81111561050c5761050c610d31565b60405190808252806020026020018201604052801561053f57816020015b606081526020019060019003908161052a5790505b5091503660005b8281101561068657600087878381811061056257610562610d60565b90506020028101906105749190610e42565b92506105836020840184610ce2565b73ffffffffffffffffffffffffffffffffffffffff166105a66020850185610dcd565b6040516105b4929190610e32565b6000604051808303816000865af19150503d80600081146105f1576040519150601f19603f3d011682016040523d82523d6000602084013e6105f6565b606091505b5086848151811061060957610609610d60565b602090810291909101015290508061067d576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601760248201527f4d756c746963616c6c333a2063616c6c206661696c656400000000000000000060448201526064016104dd565b50600101610546565b5050509250929050565b43804060606106a086868661085a565b905093509350939050565b6060818067ffffffffffffffff8111156106c7576106c7610d31565b60405190808252806020026020018201604052801561070d57816020015b6040805180820190915260008152606060208201528152602001906001900390816106e55790505b5091503660005b828110156104e657600084828151811061073057610730610d60565b6020026020010151905086868381811061074c5761074c610d60565b905060200281019061075e9190610e76565b925061076d6020840184610ce2565b73ffffffffffffffffffffffffffffffffffffffff166107906040850185610dcd565b60405161079e929190610e32565b6000604051808303816000865af19150503d80600081146107db576040519150601f19603f3d011682016040523d82523d6000602084013e6107e0565b606091505b506020808401919091529015158083529084013517610851577f08c379a000000000000000000000000000000000000000000000000000000000600052602060045260176024527f4d756c746963616c6c333a2063616c6c206661696c656400000000000000000060445260646000fd5b50600101610714565b6060818067ffffffffffffffff81111561087657610876610d31565b6040519080825280602002602001820160405280156108bc57816020015b6040805180820190915260008152606060208201528152602001906001900390816108945790505b5091503660005b82811015610a105760008482815181106108df576108df610d60565b602002602001015190508686838181106108fb576108fb610d60565b905060200281019061090d9190610e42565b925061091c6020840184610ce2565b73ffffffffffffffffffffffffffffffffffffffff1661093f6020850185610dcd565b60405161094d929190610e32565b6000604051808303816000865af19150503d806000811461098a576040519150601f19603f3d011682016040523d82523d6000602084013e61098f565b606091505b506020830152151581528715610a07578051610a07576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601760248201527f4d756c746963616c6c333a2063616c6c206661696c656400000000000000000060448201526064016104dd565b506001016108c3565b5050509392505050565b6000806060610a2b60018686610690565b919790965090945092505050565b60008083601f840112610a4b57600080fd5b50813567ffffffffffffffff811115610a6357600080fd5b6020830191508360208260051b8501011115610a7e57600080fd5b9250929050565b60008060208385031215610a9857600080fd5b823567ffffffffffffffff811115610aaf57600080fd5b610abb85828601610a39565b90969095509350505050565b6000815180845260005b81811015610aed57602081850181015186830182015201610ad1565b81811115610aff576000602083870101525b50601f017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0169290920160200192915050565b600082825180855260208086019550808260051b84010181860160005b84811015610bb1578583037fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe001895281518051151584528401516040858501819052610b9d81860183610ac7565b9a86019a9450505090830190600101610b4f565b5090979650505050505050565b602081526000610bd16020830184610b32565b9392505050565b600060408201848352602060408185015281855180845260608601915060608160051b870101935082870160005b82811015610c52577fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0888703018452610c40868351610ac7565b95509284019290840190600101610c06565b509398975050505050505050565b600080600060408486031215610c7557600080fd5b83358015158114610c8557600080fd5b9250602084013567ffffffffffffffff811115610ca157600080fd5b610cad86828701610a39565b9497909650939450505050565b838152826020820152606060408201526000610cd96060830184610b32565b95945050505050565b600060208284031215610cf457600080fd5b813573ffffffffffffffffffffffffffffffffffffffff81168114610bd157600080fd5b600060208284031215610d2a57600080fd5b5035919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b600082357fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff81833603018112610dc357600080fd5b9190910192915050565b60008083357fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe1843603018112610e0257600080fd5b83018035915067ffffffffffffffff821115610e1d57600080fd5b602001915036819003821315610a7e57600080fd5b8183823760009101908152919050565b600082357fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc1833603018112610dc357600080fd5b600082357fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa1833603018112610dc357600080fdfea2646970667358221220bb2b5c71a328032f97c676ae39a1ec2148d3e5d6f73d95e9b17910152d61f16264736f6c634300080c0033",
+          "storage": []
+        },
+        {
+          "address": "0xdd779732A91a801bb65c4acF867c55606fC19630",
+          "code": "",
+          "storage": []
+        },
+        {
+          "address": "0xedb7a6077Ab45dF72e57BC2Ea091f9183429720e",
+          "code": "608060405234801561001057600080fd5b5060c78061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806301ffc9a714602d575b600080fd5b604e60383660046062565b6001600160e01b0319166301ffc9a760e01b1490565b604051901515815260200160405180910390f35b600060208284031215607357600080fd5b81356001600160e01b031981168114608a57600080fd5b939250505056fea2646970667358221220b872b230d6a37b4ce12f24d5127759bc0451696f0186fabee8c3e9abe32c462c64736f6c63430008180033",
+          "storage": []
+        }
+      ],
+      "params": {
+        "active_precompiles": [
+          "0x0000000000000000000000000000000000000400",
+          "0x0000000000000000000000000000000000000804",
+          "0x0000000000000000000000000000000000000805",
+          "0x0000000000000000000000000000000000000806",
+          "0x0000000000000000000000000000000000000809",
+          "0x0000000000000000000000000000000000000901"
+        ],
+        "allow_unprotected_txs": false,
+        "chain_config": {
+          "arrow_glacier_block": "0",
+          "berlin_block": "0",
+          "byzantium_block": "0",
+          "cancun_block": "0",
+          "constantinople_block": "0",
+          "dao_fork_block": "0",
+          "dao_fork_support": true,
+          "eip150_block": "0",
+          "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "eip155_block": "0",
+          "eip158_block": "0",
+          "gray_glacier_block": "0",
+          "homestead_block": "0",
+          "istanbul_block": "0",
+          "london_block": "0",
+          "merge_netsplit_block": "0",
+          "muir_glacier_block": "0",
+          "petersburg_block": "0",
+          "shanghai_block": "0"
+        },
+        "enable_call": true,
+        "enable_create": true,
+        "evm_channels": [],
+        "evm_denom": "hua",
+        "extra_eips": []
+      }
+    },
+    "feedistribution": {
+      "all_avs_fee_pools": [
+        {
+          "avs": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "avs_fee_pool": {
+            "community_pool": [
+              {
+                "amount": "3.000000000000000000",
+                "denom": "hua"
+              }
+            ]
+          }
+        }
+      ],
+      "all_avs_reward_assets": [
+        {
+          "avs": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "avs_reward_assets": [
+            {
+              "asset_basic_info": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "decimals": 0,
+                "imua_chain_index": "0",
+                "layer_zero_chain_id": "0",
+                "meta_info": "IMUA native to Imuachain",
+                "name": "Native IM token",
+                "symbol": "hua"
+              },
+              "reward_asset_state": {
+                "reward_allocation_total": "100.000000000000000000",
+                "reward_pool_balance": "100.000000000000000000",
+                "reward_pool_total": "100.000000000000000000"
+              }
+            }
+          ]
+        }
+      ],
+      "all_avs_reward_distributions": [],
+      "all_avs_reward_params": [],
+      "all_delegation_change_infos": [],
+      "all_delegation_starting_infos": [
+        {
+          "delegation_starting_info": {
+            "epoch_number": "0",
+            "previous_period": "0",
+            "stake": "2000.000000000000000000"
+          },
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/minute"
+        },
+        {
+          "delegation_starting_info": {
+            "epoch_number": "0",
+            "previous_period": "0",
+            "stake": "1000.000000000000000000"
+          },
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/minute"
+        },
+        {
+          "delegation_starting_info": {
+            "epoch_number": "0",
+            "previous_period": "0",
+            "stake": "1500.000000000000000000"
+          },
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/minute"
+        },
+        {
+          "delegation_starting_info": {
+            "epoch_number": "0",
+            "previous_period": "0",
+            "stake": "200.000000000000000000"
+          },
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/minute"
+        },
+        {
+          "delegation_starting_info": {
+            "epoch_number": "0",
+            "previous_period": "0",
+            "stake": "300.000000000000000000"
+          },
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/minute"
+        },
+        {
+          "delegation_starting_info": {
+            "epoch_number": "0",
+            "previous_period": "0",
+            "stake": "500.000000000000000000"
+          },
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/minute"
+        },
+        {
+          "delegation_starting_info": {
+            "epoch_number": "0",
+            "previous_period": "0",
+            "stake": "2500.000000000000000000"
+          },
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/minute"
+        },
+        {
+          "delegation_starting_info": {
+            "epoch_number": "0",
+            "previous_period": "0",
+            "stake": "250.000000000000000000"
+          },
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/minute"
+        },
+        {
+          "delegation_starting_info": {
+            "epoch_number": "0",
+            "previous_period": "0",
+            "stake": "250.000000000000000000"
+          },
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/minute"
+        },
+        {
+          "delegation_starting_info": {
+            "epoch_number": "0",
+            "previous_period": "0",
+            "stake": "1500.000000000000000000"
+          },
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/minute"
+        }
+      ],
+      "all_operator_accumulated_commission": [],
+      "all_operator_current_rewards": [
+        {
+          "key": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/minute",
+          "operator_current_rewards": {
+            "period": "1",
+            "rewards": [
+              {
+                "avs_address": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+                "rewards": [
+                  {
+                    "amount": "16.975000000000000000",
+                    "denom": "hua"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/minute",
+          "operator_current_rewards": {
+            "period": "1",
+            "rewards": [
+              {
+                "avs_address": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+                "rewards": [
+                  {
+                    "amount": "26.190000000000000000",
+                    "denom": "hua"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/minute",
+          "operator_current_rewards": {
+            "period": "1",
+            "rewards": [
+              {
+                "avs_address": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+                "rewards": [
+                  {
+                    "amount": "26.675000000000000000",
+                    "denom": "hua"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/minute",
+          "operator_current_rewards": {
+            "period": "1",
+            "rewards": [
+              {
+                "avs_address": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+                "rewards": [
+                  {
+                    "amount": "27.160000000000000000",
+                    "denom": "hua"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "all_operator_historical_rewards": [
+        {
+          "key": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/minute/0x0000000000000000",
+          "operator_historical_rewards": {
+            "cumulative_reward_ratios": [],
+            "reference_count": 3
+          }
+        },
+        {
+          "key": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/minute/0x0000000000000000",
+          "operator_historical_rewards": {
+            "cumulative_reward_ratios": [],
+            "reference_count": 4
+          }
+        },
+        {
+          "key": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/minute/0x0000000000000000",
+          "operator_historical_rewards": {
+            "cumulative_reward_ratios": [],
+            "reference_count": 3
+          }
+        },
+        {
+          "key": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19/minute/0x0000000000000000",
+          "operator_historical_rewards": {
+            "cumulative_reward_ratios": [],
+            "reference_count": 4
+          }
+        }
+      ],
+      "all_operator_outstanding_rewards": [
+        {
+          "key": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "operator_outstanding_rewards": {
+            "rewards": [
+              {
+                "amount": "16.975000000000000000",
+                "denom": "hua"
+              }
+            ]
+          }
+        },
+        {
+          "key": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "operator_outstanding_rewards": {
+            "rewards": [
+              {
+                "amount": "26.190000000000000000",
+                "denom": "hua"
+              }
+            ]
+          }
+        },
+        {
+          "key": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "operator_outstanding_rewards": {
+            "rewards": [
+              {
+                "amount": "26.675000000000000000",
+                "denom": "hua"
+              }
+            ]
+          }
+        },
+        {
+          "key": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "operator_outstanding_rewards": {
+            "rewards": [
+              {
+                "amount": "27.160000000000000000",
+                "denom": "hua"
+              }
+            ]
+          }
+        }
+      ],
+      "all_operator_slash_events": [],
+      "all_staker_outstanding_rewards": [],
+      "params": {
+        "community_tax": "0.030000000000000000"
+      }
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feemarket": {
+      "block_gas": "0",
+      "params": {
+        "base_fee": "1819",
+        "base_fee_change_denominator": 8,
+        "elasticity_multiplier": 2,
+        "enable_height": "0",
+        "min_gas_multiplier": "0.500000000000000000",
+        "min_gas_price": "0.000000000000000000",
+        "no_base_fee": false
+      }
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "deposit_params": null,
+      "deposits": [],
+      "params": {
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_quorum": false,
+        "burn_vote_veto": true,
+        "max_deposit_period": "172800s",
+        "min_deposit": [
+          {
+            "amount": "10000000",
+            "denom": "stake"
+          }
+        ],
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "voting_period": "172800s"
+      },
+      "proposals": [],
+      "starting_proposal_id": "1",
+      "tally_params": null,
+      "votes": [],
+      "voting_params": null
+    },
+    "ibc": {
+      "channel_genesis": {
+        "ack_sequences": [],
+        "acknowledgements": [],
+        "channels": [],
+        "commitments": [],
+        "next_channel_sequence": "0",
+        "receipts": [],
+        "recv_sequences": [],
+        "send_sequences": []
+      },
+      "client_genesis": {
+        "clients": [
+          {
+            "client_id": "09-localhost",
+            "client_state": {
+              "@type": "/ibc.lightclients.localhost.v2.ClientState",
+              "latest_height": {
+                "revision_height": "99",
+                "revision_number": "8"
+              }
+            }
+          }
+        ],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "create_localhost": false,
+        "next_client_sequence": "0",
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint",
+            "09-localhost"
+          ]
+        }
+      },
+      "connection_genesis": {
+        "client_connection_paths": [],
+        "connections": [
+          {
+            "client_id": "09-localhost",
+            "counterparty": {
+              "client_id": "09-localhost",
+              "connection_id": "connection-localhost",
+              "prefix": {
+                "key_prefix": "aWJj"
+              }
+            },
+            "delay_period": "0",
+            "id": "connection-localhost",
+            "state": "STATE_OPEN",
+            "versions": [
+              {
+                "features": [
+                  "ORDER_ORDERED",
+                  "ORDER_UNORDERED"
+                ],
+                "identifier": "1"
+              }
+            ]
+          }
+        ],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      }
+    },
+    "immint": {
+      "params": {
+        "epoch_identifier": "minute",
+        "epoch_reward": "20",
+        "mint_denom": "hua"
+      }
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "params": {
+          "controller_enabled": true
+        },
+        "ports": []
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "params": {
+          "allow_messages": [
+            "*"
+          ],
+          "host_enabled": true
+        },
+        "port": "icahost"
+      }
+    },
+    "operator": {
+      "avs_usd_values": [
+        {
+          "avs_addr": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "value": {
+            "amount": "10000.000000000000000000"
+          }
+        }
+      ],
+      "operator_asset_usd_values": [
+        {
+          "key": "minute/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+          "value": {
+            "amount": "1750.000000000000000000"
+          }
+        },
+        {
+          "key": "minute/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "0.000000000000000000"
+          }
+        },
+        {
+          "key": "minute/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+          "value": {
+            "amount": "2700.000000000000000000"
+          }
+        },
+        {
+          "key": "minute/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "0.000000000000000000"
+          }
+        },
+        {
+          "key": "minute/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+          "value": {
+            "amount": "2750.000000000000000000"
+          }
+        },
+        {
+          "key": "minute/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "0.000000000000000000"
+          }
+        },
+        {
+          "key": "minute/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19",
+          "value": {
+            "amount": "2800.000000000000000000"
+          }
+        },
+        {
+          "key": "minute/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "0.000000000000000000"
+          }
+        }
+      ],
+      "operator_key_removals": [],
+      "operator_records": [
+        {
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0x84f6daec8b5925757d5610e492e73a92e8d22a4086f5b461ce0fe1a87086eebe"
+            }
+          ],
+          "operator_address": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9"
+        },
+        {
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0xe0cb02001931bdfd35981986293a5c6266e5555213be266ced989a8345d25dc4"
+            }
+          ],
+          "operator_address": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5"
+        },
+        {
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0x150a4ffd8cf2563c84037a71bcea07f7a60b5d6d639030a627e1c264832ec3cb"
+            }
+          ],
+          "operator_address": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4"
+        },
+        {
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0x99ec00bda4c0d36035a76896a350b30ab33c67f9cf3b5c0bb86cbab72a49c54b"
+            }
+          ],
+          "operator_address": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2"
+        }
+      ],
+      "operator_usd_values": [
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "opted_usd_value": {
+            "active_usd_value": "1750.000000000000000000",
+            "self_usd_value": "1500.000000000000000000",
+            "total_usd_value": "1750.000000000000000000"
+          }
+        },
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "opted_usd_value": {
+            "active_usd_value": "2700.000000000000000000",
+            "self_usd_value": "2000.000000000000000000",
+            "total_usd_value": "2700.000000000000000000"
+          }
+        },
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "opted_usd_value": {
+            "active_usd_value": "2750.000000000000000000",
+            "self_usd_value": "2500.000000000000000000",
+            "total_usd_value": "2750.000000000000000000"
+          }
+        },
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "opted_usd_value": {
+            "active_usd_value": "2800.000000000000000000",
+            "self_usd_value": "1500.000000000000000000",
+            "total_usd_value": "2800.000000000000000000"
+          }
+        }
+      ],
+      "operators": [
+        {
+          "operator_address": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "operator_info": {
+            "approve_addr": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "client_chain_earning_addr": "0x2AB68E90A33Eda876023C310ddd7cb6C7532fAb7",
+                  "lz_client_chain_id": "40217"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "max_change_rate": "1.000000000000000000",
+                "max_rate": "1.000000000000000000",
+                "rate": "0.000000000000000000"
+              },
+              "update_time": "2025-06-24T08:06:10Z"
+            },
+            "earnings_addr": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+            "operator_meta_info": "v4"
+          }
+        },
+        {
+          "operator_address": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "operator_info": {
+            "approve_addr": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "client_chain_earning_addr": "0x884958ffB23885a13B5D51617f05F2B8b20f0405",
+                  "lz_client_chain_id": "40217"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "max_change_rate": "1.000000000000000000",
+                "max_rate": "1.000000000000000000",
+                "rate": "0.000000000000000000"
+              },
+              "update_time": "2025-06-24T08:06:10Z"
+            },
+            "earnings_addr": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+            "operator_meta_info": "v2"
+          }
+        },
+        {
+          "operator_address": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "operator_info": {
+            "approve_addr": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "client_chain_earning_addr": "0xbca20b69c8f433af9D11847215fbBd847cDC7A89",
+                  "lz_client_chain_id": "40217"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "max_change_rate": "1.000000000000000000",
+                "max_rate": "1.000000000000000000",
+                "rate": "0.000000000000000000"
+              },
+              "update_time": "2025-06-24T08:06:10Z"
+            },
+            "earnings_addr": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+            "operator_meta_info": "v3"
+          }
+        },
+        {
+          "operator_address": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "operator_info": {
+            "approve_addr": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "client_chain_earning_addr": "0xdd779732A91a801bb65c4acF867c55606fC19630",
+                  "lz_client_chain_id": "40217"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "max_change_rate": "1.000000000000000000",
+                "max_rate": "1.000000000000000000",
+                "rate": "0.000000000000000000"
+              },
+              "update_time": "2025-06-24T08:06:10Z"
+            },
+            "earnings_addr": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+            "operator_meta_info": "v1"
+          }
+        }
+      ],
+      "opt_states": [
+        {
+          "key": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "jail_toggle_heights": [],
+            "jailed": false,
+            "opted_in_height": "0",
+            "opted_out_height": "18446744073709551615",
+            "slash_contract": ""
+          }
+        },
+        {
+          "key": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "jail_toggle_heights": [],
+            "jailed": false,
+            "opted_in_height": "0",
+            "opted_out_height": "18446744073709551615",
+            "slash_contract": ""
+          }
+        },
+        {
+          "key": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "jail_toggle_heights": [],
+            "jailed": false,
+            "opted_in_height": "0",
+            "opted_out_height": "18446744073709551615",
+            "slash_contract": ""
+          }
+        },
+        {
+          "key": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "jail_toggle_heights": [],
+            "jailed": false,
+            "opted_in_height": "0",
+            "opted_out_height": "18446744073709551615",
+            "slash_contract": ""
+          }
+        }
+      ],
+      "pre_cons_keys": [],
+      "slash_states": []
+    },
+    "oracle": {
+      "index_recent_msg": null,
+      "index_recent_params": {
+        "index": [
+          "1"
+        ]
+      },
+      "params": {
+        "chains": [
+          {
+            "desc": "-",
+            "name": "-"
+          },
+          {
+            "desc": "Ethereum mainnet",
+            "name": "Ethereum"
+          }
+        ],
+        "max_det_id": 5,
+        "max_nonce": 3,
+        "max_size_prices": 100,
+        "mode": "CONSENSUS_MODE_ASAP",
+        "piece_size_byte": 48000,
+        "rules": [
+          {
+            "nom": null,
+            "source_ids": []
+          },
+          {
+            "nom": null,
+            "source_ids": [
+              "0"
+            ]
+          }
+        ],
+        "slashing": {
+          "min_reported_per_window": "0.500000000000000000",
+          "oracle_malicious_jail_duration": "2592000s",
+          "oracle_miss_jail_duration": "600s",
+          "reported_rounds_window": "100",
+          "slash_fraction_malicious": "0.100000000000000000"
+        },
+        "sources": [
+          {
+            "deterministic": false,
+            "entry": null,
+            "name": "0 position is reserved",
+            "valid": false
+          }
+        ],
+        "threshold_a": 2,
+        "threshold_b": 3,
+        "token_feeders": [
+          {
+            "end_block": "0",
+            "interval": "0",
+            "rule_id": "0",
+            "start_base_block": "0",
+            "start_round_id": "0",
+            "token_id": "0"
+          },
+          {
+            "end_block": "0",
+            "interval": "30",
+            "rule_id": "1",
+            "start_base_block": "20",
+            "start_round_id": "1",
+            "token_id": "1"
+          },
+          {
+            "end_block": "0",
+            "interval": "30",
+            "rule_id": "1",
+            "start_base_block": "20",
+            "start_round_id": "1",
+            "token_id": "2"
+          }
+        ],
+        "tokens": [
+          {
+            "active": false,
+            "asset_id": "",
+            "chain_id": "0",
+            "contract_address": "",
+            "decimal": 0,
+            "name": ""
+          },
+          {
+            "active": true,
+            "asset_id": "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19,0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+            "chain_id": "1",
+            "contract_address": "0x1E867667Ef16111047C2c7f6ADf4612bDf80064D",
+            "decimal": 8,
+            "name": "ETH"
+          },
+          {
+            "active": true,
+            "asset_id": "NST_0x9d19",
+            "chain_id": "1",
+            "contract_address": "",
+            "decimal": 0,
+            "name": "nstETH"
+          }
+        ]
+      },
+      "prices_list": [
+        {
+          "next_round_id": "4",
+          "price_list": [
+            {
+              "decimal": 0,
+              "price": "",
+              "round_id": "1",
+              "timestamp": ""
+            },
+            {
+              "decimal": 0,
+              "price": "",
+              "round_id": "2",
+              "timestamp": ""
+            },
+            {
+              "decimal": 0,
+              "price": "",
+              "round_id": "3",
+              "timestamp": ""
+            }
+          ],
+          "token_id": "1"
+        },
+        {
+          "next_round_id": "4",
+          "price_list": [
+            {
+              "decimal": 0,
+              "price": "",
+              "round_id": "1",
+              "timestamp": ""
+            },
+            {
+              "decimal": 0,
+              "price": "",
+              "round_id": "2",
+              "timestamp": ""
+            },
+            {
+              "decimal": 0,
+              "price": "",
+              "round_id": "3",
+              "timestamp": ""
+            }
+          ],
+          "token_id": "2"
+        }
+      ],
+      "recent_msg_list": [],
+      "recent_params_list": [
+        {
+          "block": "1",
+          "params": {
+            "chains": [
+              {
+                "desc": "-",
+                "name": "-"
+              },
+              {
+                "desc": "Ethereum mainnet",
+                "name": "Ethereum"
+              }
+            ],
+            "max_det_id": 5,
+            "max_nonce": 3,
+            "max_size_prices": 100,
+            "mode": "CONSENSUS_MODE_ASAP",
+            "piece_size_byte": 48000,
+            "rules": [
+              {
+                "nom": null,
+                "source_ids": []
+              },
+              {
+                "nom": null,
+                "source_ids": [
+                  "0"
+                ]
+              }
+            ],
+            "slashing": {
+              "min_reported_per_window": "0.500000000000000000",
+              "oracle_malicious_jail_duration": "2592000s",
+              "oracle_miss_jail_duration": "600s",
+              "reported_rounds_window": "100",
+              "slash_fraction_malicious": "0.100000000000000000"
+            },
+            "sources": [
+              {
+                "deterministic": false,
+                "entry": null,
+                "name": "0 position is reserved",
+                "valid": false
+              }
+            ],
+            "threshold_a": 2,
+            "threshold_b": 3,
+            "token_feeders": [
+              {
+                "end_block": "0",
+                "interval": "0",
+                "rule_id": "0",
+                "start_base_block": "0",
+                "start_round_id": "0",
+                "token_id": "0"
+              },
+              {
+                "end_block": "0",
+                "interval": "30",
+                "rule_id": "1",
+                "start_base_block": "20",
+                "start_round_id": "1",
+                "token_id": "1"
+              },
+              {
+                "end_block": "0",
+                "interval": "30",
+                "rule_id": "1",
+                "start_base_block": "20",
+                "start_round_id": "1",
+                "token_id": "2"
+              }
+            ],
+            "tokens": [
+              {
+                "active": false,
+                "asset_id": "",
+                "chain_id": "0",
+                "contract_address": "",
+                "decimal": 0,
+                "name": ""
+              },
+              {
+                "active": true,
+                "asset_id": "0x1e867667ef16111047c2c7f6adf4612bdf80064d_0x9d19,0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+                "chain_id": "1",
+                "contract_address": "0x1E867667Ef16111047C2c7f6ADf4612bDf80064D",
+                "decimal": 8,
+                "name": "ETH"
+              },
+              {
+                "active": true,
+                "asset_id": "NST_0x9d19",
+                "chain_id": "1",
+                "contract_address": "",
+                "decimal": 0,
+                "name": "nstETH"
+              }
+            ]
+          }
+        }
+      ],
+      "staker_infos_assets": [],
+      "validator_missed_rounds": [
+        {
+          "address": "imvalcons13rmeqgrdgwknhjw23xxegczxnm0sg2url5z233",
+          "missed_rounds": []
+        },
+        {
+          "address": "imvalcons1gzcn6md2xwregl9qjkxjtrfpg0f57g5yc4m6vr",
+          "missed_rounds": []
+        },
+        {
+          "address": "imvalcons1wxh7fh2mvc8zvsmnsgmjq7xkgxdu6048a498vf",
+          "missed_rounds": []
+        },
+        {
+          "address": "imvalcons1yy7t66juna3nqx3pv36hkjhttedzey34g0sgls",
+          "missed_rounds": []
+        }
+      ],
+      "validator_report_infos": [
+        {
+          "address": "imvalcons13rmeqgrdgwknhjw23xxegczxnm0sg2url5z233",
+          "index_offset": "0",
+          "missed_rounds_counter": "0",
+          "start_height": "2"
+        },
+        {
+          "address": "imvalcons1gzcn6md2xwregl9qjkxjtrfpg0f57g5yc4m6vr",
+          "index_offset": "0",
+          "missed_rounds_counter": "0",
+          "start_height": "2"
+        },
+        {
+          "address": "imvalcons1wxh7fh2mvc8zvsmnsgmjq7xkgxdu6048a498vf",
+          "index_offset": "0",
+          "missed_rounds_counter": "0",
+          "start_height": "2"
+        },
+        {
+          "address": "imvalcons1yy7t66juna3nqx3pv36hkjhttedzey34g0sgls",
+          "index_offset": "0",
+          "missed_rounds_counter": "0",
+          "start_height": "2"
+        }
+      ],
+      "validator_update_block": {
+        "block": "18"
+      }
+    },
+    "params": null,
+    "slashing": {
+      "missed_blocks": [
+        {
+          "address": "imvalcons1yy7t66juna3nqx3pv36hkjhttedzey34g0sgls",
+          "missed_blocks": []
+        },
+        {
+          "address": "imvalcons1gzcn6md2xwregl9qjkxjtrfpg0f57g5yc4m6vr",
+          "missed_blocks": []
+        },
+        {
+          "address": "imvalcons1wxh7fh2mvc8zvsmnsgmjq7xkgxdu6048a498vf",
+          "missed_blocks": []
+        },
+        {
+          "address": "imvalcons13rmeqgrdgwknhjw23xxegczxnm0sg2url5z233",
+          "missed_blocks": []
+        }
+      ],
+      "params": {
+        "downtime_jail_duration": "600s",
+        "min_signed_per_window": "0.500000000000000000",
+        "signed_blocks_window": "100",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [
+        {
+          "address": "imvalcons1yy7t66juna3nqx3pv36hkjhttedzey34g0sgls",
+          "validator_signing_info": {
+            "address": "imvalcons1yy7t66juna3nqx3pv36hkjhttedzey34g0sgls",
+            "index_offset": "98",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "0",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "imvalcons1gzcn6md2xwregl9qjkxjtrfpg0f57g5yc4m6vr",
+          "validator_signing_info": {
+            "address": "imvalcons1gzcn6md2xwregl9qjkxjtrfpg0f57g5yc4m6vr",
+            "index_offset": "98",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "0",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "imvalcons1wxh7fh2mvc8zvsmnsgmjq7xkgxdu6048a498vf",
+          "validator_signing_info": {
+            "address": "imvalcons1wxh7fh2mvc8zvsmnsgmjq7xkgxdu6048a498vf",
+            "index_offset": "98",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "0",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "imvalcons13rmeqgrdgwknhjw23xxegczxnm0sg2url5z233",
+          "validator_signing_info": {
+            "address": "imvalcons13rmeqgrdgwknhjw23xxegczxnm0sg2url5z233",
+            "index_offset": "98",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "0",
+            "tombstoned": false
+          }
+        }
+      ]
+    },
+    "transfer": {
+      "denom_traces": [],
+      "params": {
+        "receive_enabled": true,
+        "send_enabled": true
+      },
+      "port_id": "transfer",
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "vesting": {}
+  },
+  "chain_id": "imuachaintestnet_233-8",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age_duration": "172800000000000",
+      "max_age_num_blocks": "100000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {
+      "app": "0"
+    }
+  },
+  "genesis_time": "2025-06-24T08:06:10Z",
+  "initial_height": "100"
+}

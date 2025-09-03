@@ -1,0 +1,1301 @@
+{
+  "genesis_time": "2025-07-28T09:26:03Z",
+  "chain_id": "imuachaintestnet_233-8",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {
+      "app": "0"
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "07-tendermint": null,
+    "assets": {
+      "params": {
+        "gateways": [
+          "0x0000000000000000000000000000000000000901"
+        ]
+      },
+      "client_chains": [
+        {
+          "name": "Imuachain",
+          "meta_info": "The (native) Imuachain",
+          "chain_id": "0",
+          "imua_chain_index": "0",
+          "finalization_blocks": "10",
+          "layer_zero_chain_id": "0",
+          "signature_type": "",
+          "address_length": 20
+        },
+        {
+          "name": "Hoodi",
+          "meta_info": "Ethereum-testnet known as Hoodi",
+          "finalization_blocks": 10,
+          "layer_zero_chain_id": 40217,
+          "address_length": 20
+        }
+      ],
+      "tokens": [
+        {
+          "asset_basic_info": {
+            "name": "Native Staked ETH",
+            "symbol": "ETH",
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": "18",
+            "layer_zero_chain_id": 40217,
+            "imua_chain_index": "2",
+            "meta_info": "Staked ETH"
+          },
+          "staking_total_amount": "0"
+        },
+        {
+          "asset_basic_info": {
+            "name": "Native IM token",
+            "symbol": "IMUA",
+            "address": "0x0000000000000000000000000000000000000000",
+            "decimals": 18,
+            "layer_zero_chain_id": "0",
+            "imua_chain_index": "0",
+            "meta_info": "IMUA native to Imuachain"
+          },
+          "staking_total_amount": "0"
+        },
+        {
+          "asset_basic_info": {
+            "name": "imETH",
+            "symbol": "imETH",
+            "address": "0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d",
+            "decimals": "18",
+            "layer_zero_chain_id": 40217,
+            "imua_chain_index": "0",
+            "meta_info": "Imuachain Hoodi ETH"
+          },
+          "staking_total_amount": "10000000000000000000000"
+        },
+        {
+          "asset_basic_info": {
+            "name": "wstETH",
+            "symbol": "wstETH",
+            "address": "0x32118ebd4b82a84b0f13218dba41f352cc7c2923",
+            "decimals": "18",
+            "layer_zero_chain_id": 40217,
+            "imua_chain_index": "1",
+            "meta_info": "wstETH"
+          },
+          "staking_total_amount": "0"
+        }
+      ],
+      "deposits": [
+        {
+          "staker": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+              "info": {
+                "total_deposit_amount": "3000000000000000000000",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+              "info": {
+                "total_deposit_amount": "2000000000000000000000",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+              "info": {
+                "total_deposit_amount": "3000000000000000000000",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+              "info": {
+                "total_deposit_amount": "2000000000000000000000",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        }
+      ],
+      "operator_assets": [
+        {
+          "operator": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "assets_state": [
+            {
+              "asset_id": "0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+              "info": {
+                "total_amount": "0",
+                "pending_undelegation_amount": "0",
+                "total_share": "0",
+                "operator_share": "0"
+              }
+            },
+            {
+              "asset_id": "0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+              "info": {
+                "total_amount": "1750000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_share": "1750000000000000000000",
+                "operator_share": "1500000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_amount": "0",
+                "pending_undelegation_amount": "0",
+                "total_share": "0",
+                "operator_share": "0"
+              }
+            }
+          ]
+        },
+        {
+          "operator": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "assets_state": [
+            {
+              "asset_id": "0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+              "info": {
+                "total_amount": "0",
+                "pending_undelegation_amount": "0",
+                "total_share": "0",
+                "operator_share": "0"
+              }
+            },
+            {
+              "asset_id": "0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+              "info": {
+                "total_amount": "2700000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_share": "2700000000000000000000",
+                "operator_share": "2000000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_amount": "0",
+                "pending_undelegation_amount": "0",
+                "total_share": "0",
+                "operator_share": "0"
+              }
+            }
+          ]
+        },
+        {
+          "operator": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "assets_state": [
+            {
+              "asset_id": "0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+              "info": {
+                "total_amount": "0",
+                "pending_undelegation_amount": "0",
+                "total_share": "0",
+                "operator_share": "0"
+              }
+            },
+            {
+              "asset_id": "0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+              "info": {
+                "total_amount": "2750000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_share": "2750000000000000000000",
+                "operator_share": "2500000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_amount": "0",
+                "pending_undelegation_amount": "0",
+                "total_share": "0",
+                "operator_share": "0"
+              }
+            }
+          ]
+        },
+        {
+          "operator": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "assets_state": [
+            {
+              "asset_id": "0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+              "info": {
+                "total_amount": "0",
+                "pending_undelegation_amount": "0",
+                "total_share": "0",
+                "operator_share": "0"
+              }
+            },
+            {
+              "asset_id": "0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+              "info": {
+                "total_amount": "2800000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_share": "2800000000000000000000",
+                "operator_share": "1500000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_amount": "0",
+                "pending_undelegation_amount": "0",
+                "total_share": "0",
+                "operator_share": "0"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": []
+    },
+    "authz": {
+      "authorization": []
+    },
+    "avs": {
+      "avs_infos": [],
+      "task_infos": [],
+      "bls_pub_keys": [],
+      "task_result_infos": [],
+      "challenge_infos": [],
+      "task_nums": [],
+      "chain_id_infos": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [],
+      "supply": [],
+      "denom_metadata": [],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "stake",
+        "amount": "1000"
+      }
+    },
+    "delegation": {
+      "params": {
+        "instant_undelegation_penalty": 25
+      },
+      "associations": [
+        {
+          "staker_id": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19",
+          "operator": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9"
+        },
+        {
+          "staker_id": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+          "operator": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5"
+        },
+        {
+          "staker_id": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+          "operator": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4"
+        },
+        {
+          "staker_id": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+          "operator": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2"
+        }
+      ],
+      "delegation_states": [
+        {
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "2000000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "1000000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "1500000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "200000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "300000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "500000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "2500000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "250000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "250000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "1500000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        }
+      ],
+      "stakers_by_operator": [
+        {
+          "key": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19"
+          ]
+        },
+        {
+          "key": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+          "stakers": [
+            "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+            "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19"
+          ]
+        },
+        {
+          "key": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19"
+          ]
+        },
+        {
+          "key": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+            "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19"
+          ]
+        }
+      ],
+      "undelegations": [],
+      "last_undelegation_id": "0"
+    },
+    "dogfood": {
+      "params": {
+        "epochs_until_unbonded": 7,
+        "epoch_identifier": "day",
+        "max_validators": 100,
+        "historical_entries": 10000,
+        "asset_ids": [
+          "0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+          "0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19"
+        ],
+        "min_self_delegation": "0"
+      },
+      "val_set": [
+        {
+          "public_key": "0x99ec00bda4c0d36035a76896a350b30ab33c67f9cf3b5c0bb86cbab72a49c54b",
+          "power": "7053984"
+        },
+        {
+          "public_key": "0x150a4ffd8cf2563c84037a71bcea07f7a60b5d6d639030a627e1c264832ec3cb",
+          "power": "6928020"
+        },
+        {
+          "public_key": "0x84f6daec8b5925757d5610e492e73a92e8d22a4086f5b461ce0fe1a87086eebe",
+          "power": "6802056"
+        },
+        {
+          "public_key": "0xe0cb02001931bdfd35981986293a5c6266e5555213be266ced989a8345d25dc4",
+          "power": "4408740"
+        }
+      ],
+      "opt_out_expiries": [],
+      "consensus_addrs_to_prune": [],
+      "undelegation_maturities": [],
+      "last_total_power": "25192800"
+    },
+    "epochs": {
+      "epochs": [
+        {
+          "identifier": "day",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "86400s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "hour",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "3600s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "minute",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "60s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "week",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "604800s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        }
+      ]
+    },
+    "erc20": {
+      "params": {
+        "enable_erc20": true,
+        "enable_evm_hook": true
+      },
+      "token_pairs": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "evm": {
+      "accounts": [],
+      "params": {
+        "evm_denom": "hua",
+        "enable_create": true,
+        "enable_call": true,
+        "extra_eips": [],
+        "chain_config": {
+          "homestead_block": "0",
+          "dao_fork_block": "0",
+          "dao_fork_support": true,
+          "eip150_block": "0",
+          "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "eip155_block": "0",
+          "eip158_block": "0",
+          "byzantium_block": "0",
+          "constantinople_block": "0",
+          "petersburg_block": "0",
+          "istanbul_block": "0",
+          "muir_glacier_block": "0",
+          "berlin_block": "0",
+          "london_block": "0",
+          "arrow_glacier_block": "0",
+          "gray_glacier_block": "0",
+          "merge_netsplit_block": "0",
+          "shanghai_block": "0",
+          "cancun_block": "0"
+        },
+        "allow_unprotected_txs": false,
+        "active_precompiles": [
+          "0x0000000000000000000000000000000000000400",
+          "0x0000000000000000000000000000000000000804",
+          "0x0000000000000000000000000000000000000805",
+          "0x0000000000000000000000000000000000000806",
+          "0x0000000000000000000000000000000000000809",
+          "0x0000000000000000000000000000000000000901"
+        ],
+        "evm_channels": []
+      }
+    },
+    "feedistribution": {
+      "params": {
+        "community_tax": "0.030000000000000000"
+      },
+      "all_avs_reward_assets": [
+        {
+          "avs": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "avs_reward_assets": [
+            {
+              "asset_basic_info": {
+                "name": "Native IM token",
+                "symbol": "hua",
+                "address": "0x0000000000000000000000000000000000000000",
+                "decimals": 0,
+                "layer_zero_chain_id": "0",
+                "imua_chain_index": "0",
+                "meta_info": "IMUA native to Imuachain"
+              },
+              "reward_asset_state": {
+                "reward_pool_balance": "0.000000000000000000",
+                "reward_pool_total": "0.000000000000000000",
+                "reward_allocation_total": "0.000000000000000000"
+              }
+            }
+          ]
+        }
+      ],
+      "all_avs_reward_params": [],
+      "all_avs_fee_pools": [],
+      "all_avs_reward_distributions": [],
+      "all_operator_outstanding_rewards": [],
+      "all_delegation_change_infos": [],
+      "all_delegation_starting_infos": [],
+      "all_operator_historical_rewards": [],
+      "all_operator_current_rewards": [],
+      "all_operator_accumulated_commission": [],
+      "all_operator_slash_events": [],
+      "all_staker_outstanding_rewards": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feemarket": {
+      "params": {
+        "no_base_fee": false,
+        "base_fee_change_denominator": 8,
+        "elasticity_multiplier": 2,
+        "enable_height": "0",
+        "base_fee": "1000000000",
+        "min_gas_price": "0.000000000000000000",
+        "min_gas_multiplier": "0.500000000000000000"
+      },
+      "block_gas": "0"
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "stake",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800s",
+        "voting_period": "172800s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint",
+            "09-localhost"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "immint": {
+      "params": {
+        "mint_denom": "hua",
+        "epoch_reward": "20",
+        "epoch_identifier": "day",
+        "inflation_params": {
+          "enable": false,
+          "start_time": "0",
+          "annual_inflation": []
+        }
+      }
+    },
+    "imslash": {
+      "params": {}
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": [
+            "*"
+          ]
+        }
+      }
+    },
+    "operator": {
+      "operators": [
+        {
+          "operator_address": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "operator_info": {
+            "earnings_addr": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+            "approve_addr": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+            "operator_meta_info": "v2",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "lz_client_chain_id": 40217,
+                  "client_chain_earning_addr": "0x884958ffB23885a13B5D51617f05F2B8b20f0405"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "rate": "0",
+                "max_rate": "1",
+                "max_change_rate": "1"
+              },
+              "update_time": "2025-07-28T04:15:12.000Z"
+            }
+          }
+        },
+        {
+          "operator_address": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "operator_info": {
+            "earnings_addr": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+            "approve_addr": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+            "operator_meta_info": "v4",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "lz_client_chain_id": 40217,
+                  "client_chain_earning_addr": "0x2AB68E90A33Eda876023C310ddd7cb6C7532fAb7"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "rate": "0",
+                "max_rate": "1",
+                "max_change_rate": "1"
+              },
+              "update_time": "2025-07-28T04:15:12.000Z"
+            }
+          }
+        },
+        {
+          "operator_address": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "operator_info": {
+            "earnings_addr": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+            "approve_addr": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+            "operator_meta_info": "v3",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "lz_client_chain_id": 40217,
+                  "client_chain_earning_addr": "0xbca20b69c8f433af9D11847215fbBd847cDC7A89"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "rate": "0",
+                "max_rate": "1",
+                "max_change_rate": "1"
+              },
+              "update_time": "2025-07-28T04:15:12.000Z"
+            }
+          }
+        },
+        {
+          "operator_address": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "operator_info": {
+            "earnings_addr": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+            "approve_addr": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+            "operator_meta_info": "v1",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "lz_client_chain_id": 40217,
+                  "client_chain_earning_addr": "0xdd779732A91a801bb65c4acF867c55606fC19630"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "rate": "0",
+                "max_rate": "1",
+                "max_change_rate": "1"
+              },
+              "update_time": "2025-07-28T04:15:12.000Z"
+            }
+          }
+        }
+      ],
+      "operator_records": [
+        {
+          "operator_address": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0xe0cb02001931bdfd35981986293a5c6266e5555213be266ced989a8345d25dc4"
+            }
+          ]
+        },
+        {
+          "operator_address": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0x84f6daec8b5925757d5610e492e73a92e8d22a4086f5b461ce0fe1a87086eebe"
+            }
+          ]
+        },
+        {
+          "operator_address": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0x150a4ffd8cf2563c84037a71bcea07f7a60b5d6d639030a627e1c264832ec3cb"
+            }
+          ]
+        },
+        {
+          "operator_address": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0x99ec00bda4c0d36035a76896a350b30ab33c67f9cf3b5c0bb86cbab72a49c54b"
+            }
+          ]
+        }
+      ],
+      "opt_states": [
+        {
+          "key": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "opted_in_height": 0,
+            "opted_out_height": "18446744073709551615"
+          }
+        },
+        {
+          "key": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "opted_in_height": 0,
+            "opted_out_height": "18446744073709551615"
+          }
+        },
+        {
+          "key": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "opted_in_height": 0,
+            "opted_out_height": "18446744073709551615"
+          }
+        },
+        {
+          "key": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "opted_in_height": 0,
+            "opted_out_height": "18446744073709551615"
+          }
+        }
+      ],
+      "avs_usd_values": [
+        {
+          "avs_addr": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "value": {
+            "amount": "25192800"
+          }
+        }
+      ],
+      "operator_usd_values": [
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "opted_usd_value": {
+            "self_usd_value": "3778920",
+            "total_usd_value": "4408740",
+            "active_usd_value": "4408740"
+          }
+        },
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "opted_usd_value": {
+            "self_usd_value": "5038560",
+            "total_usd_value": "6802056",
+            "active_usd_value": "6802056"
+          }
+        },
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "opted_usd_value": {
+            "self_usd_value": "6298200",
+            "total_usd_value": "6928020",
+            "active_usd_value": "6928020"
+          }
+        },
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "opted_usd_value": {
+            "self_usd_value": "3778920",
+            "total_usd_value": "7053984",
+            "active_usd_value": "7053984"
+          }
+        }
+      ],
+      "slash_states": [],
+      "pre_cons_keys": [],
+      "operator_key_removals": [],
+      "operator_asset_usd_values": [
+        {
+          "key": "day/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+          "value": {
+            "amount": "0"
+          }
+        },
+        {
+          "key": "day/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+          "value": {
+            "amount": "4408740"
+          }
+        },
+        {
+          "key": "day/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "0"
+          }
+        },
+        {
+          "key": "day/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+          "value": {
+            "amount": "0"
+          }
+        },
+        {
+          "key": "day/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+          "value": {
+            "amount": "6802056"
+          }
+        },
+        {
+          "key": "day/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "0"
+          }
+        },
+        {
+          "key": "day/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+          "value": {
+            "amount": "0"
+          }
+        },
+        {
+          "key": "day/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+          "value": {
+            "amount": "6928020"
+          }
+        },
+        {
+          "key": "day/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "0"
+          }
+        },
+        {
+          "key": "day/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+          "value": {
+            "amount": "0"
+          }
+        },
+        {
+          "key": "day/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19",
+          "value": {
+            "amount": "7053984"
+          }
+        },
+        {
+          "key": "day/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "0"
+          }
+        }
+      ]
+    },
+    "oracle": {
+      "params": {
+        "chains": [
+          {
+            "name": "-",
+            "desc": "-"
+          },
+          {
+            "name": "Ethereum",
+            "desc": "Ethereum mainnet and testnets"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "",
+            "chain_id": "0",
+            "contract_address": "",
+            "decimal": 0,
+            "active": false,
+            "asset_id": ""
+          },
+          {
+            "name": "ETH",
+            "chain_id": 1,
+            "contract_address": "0x80E5bb3A04554E54b40Dd6e14ca0F97212d9428d",
+            "active": true,
+            "asset_id": "0x80e5bb3a04554e54b40dd6e14ca0f97212d9428d_0x9d19,0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+            "decimal": 8
+          },
+          {
+            "name": "wstETH",
+            "chain_id": 1,
+            "contract_address": "0x32118ebD4b82A84B0f13218dbA41f352CC7c2923",
+            "active": true,
+            "asset_id": "0x32118ebd4b82a84b0f13218dba41f352cc7c2923_0x9d19",
+            "decimal": 8
+          },
+          {
+            "name": "nstETH",
+            "chain_id": 1,
+            "contract_address": "",
+            "active": true,
+            "asset_id": "NST_0x9d19",
+            "decimal": 0
+          }
+        ],
+        "sources": [
+          {
+            "name": "0 position is reserved",
+            "entry": null,
+            "valid": false,
+            "deterministic": false
+          },
+          {
+            "deterministic": true,
+            "name": "Chainlink",
+            "entry": {
+              "offchain": {
+                "0": ""
+              },
+              "onchain": {}
+            },
+            "valid": true
+          }
+        ],
+        "rules": [
+          {
+            "source_ids": [],
+            "nom": null
+          },
+          {
+            "source_ids": [
+              "0"
+            ],
+            "nom": null
+          },
+          {
+            "source_ids": [
+              "1"
+            ],
+            "nom": null
+          },
+          {
+            "source_ids": [
+              "0"
+            ],
+            "nom": {
+              "source_ids": [
+                "1"
+              ],
+              "minimum": "1"
+            }
+          }
+        ],
+        "token_feeders": [
+          {
+            "token_id": "0",
+            "rule_id": "0",
+            "start_round_id": "0",
+            "start_base_block": "0",
+            "interval": "0",
+            "end_block": "0"
+          },
+          {
+            "token_id": "1",
+            "start_round_id": "1",
+            "start_base_block": "20",
+            "interval": "30",
+            "end_block": "0",
+            "rule_id": "2"
+          },
+          {
+            "token_id": "2",
+            "start_round_id": "1",
+            "start_base_block": "20",
+            "interval": "30",
+            "end_block": "0",
+            "rule_id": "2"
+          },
+          {
+            "token_id": "3",
+            "start_round_id": "1",
+            "start_base_block": "20",
+            "interval": "30",
+            "end_block": "0",
+            "rule_id": "3"
+          }
+        ],
+        "max_nonce": 3,
+        "threshold_a": 2,
+        "threshold_b": 3,
+        "mode": "CONSENSUS_MODE_ASAP",
+        "max_det_id": 5,
+        "max_size_prices": 100,
+        "slashing": {
+          "reported_rounds_window": "100",
+          "min_reported_per_window": "0.500000000000000000",
+          "oracle_miss_jail_duration": "600s",
+          "oracle_malicious_jail_duration": "2592000s",
+          "slash_fraction_malicious": "0.100000000000000000"
+        },
+        "piece_size_byte": 48000,
+        "epoch_identifier": ""
+      },
+      "prices_list": [
+        {
+          "next_round_id": "1",
+          "price_list": [
+            {
+              "decimal": 8,
+              "price": "251928000000",
+              "round_id": "0"
+            }
+          ],
+          "token_id": "1"
+        },
+        {
+          "next_round_id": "1",
+          "price_list": [
+            {
+              "decimal": 8,
+              "price": "303569000000",
+              "round_id": "0"
+            }
+          ],
+          "token_id": "2"
+        },
+        {
+          "next_round_id": "1",
+          "price_list": [
+            {
+              "decimal": 8,
+              "price": "251928000000",
+              "round_id": "0"
+            }
+          ],
+          "token_id": "3"
+        }
+      ],
+      "validator_update_block": null,
+      "index_recent_params": null,
+      "index_recent_msg": null,
+      "recent_msg_list": [],
+      "recent_params_list": [],
+      "staker_infos_assets": [],
+      "validator_report_infos": [],
+      "validator_missed_rounds": []
+    },
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "vesting": {}
+  }
+}

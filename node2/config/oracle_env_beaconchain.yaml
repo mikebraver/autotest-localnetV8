@@ -1,0 +1,6 @@
+urls:
+  beaconchain: !!str http://139.64.164.21:3500
+  eth: !!str http://139.64.164.21:8245
+nstid:
+  !!str 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19  
+bootstrap: !!str 0x3ca48daA704F3f42B20c4DDbE5584e8c40Cf63D8  

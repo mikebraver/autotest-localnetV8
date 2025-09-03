@@ -1,0 +1,16 @@
+=============== Sep 3, 2025 (CST) ===============
+17:42:53.318069 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:42:53.326221 db@open opening
+17:42:53.326397 version@stat F·[] S·0B[] Sc·[]
+17:42:53.332413 db@janitor F·2 G·0
+17:42:53.332430 db@open done T·6.197625ms
+18:01:48.035083 memdb@flush N·38811 S·3MiB
+18:01:48.064740 memdb@flush created L0@3 N·38811 S·526KiB "blo..\x00\x01\xa2,v75":"blo..\xe03{,v38798"
+18:01:48.065098 version@stat F·[1] S·526KiB[526KiB] Sc·[0.25]
+18:01:48.073788 memdb@flush committed F·1 T·38.529167ms
+18:01:48.077991 journal@remove removed @1
+18:18:31.847608 memdb@flush N·34984 S·3MiB
+18:18:31.889870 memdb@flush created L0@5 N·34984 S·661KiB "\x00\x85\xad..S\xe2#,v70829":"\xff\xf9\xf5..\xd1mt,v68719"
+18:18:31.890205 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+18:18:31.897679 memdb@flush committed F·1 T·49.801459ms
+18:18:31.899350 journal@remove removed @2

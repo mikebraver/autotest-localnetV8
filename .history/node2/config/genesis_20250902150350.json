@@ -1,0 +1,2154 @@
+{
+  "genesis_time": "2025-07-04T08:04:50Z",
+  "chain_id": "imuachaintestnet_233-8",
+  "initial_height": "0",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {
+      "app": "0"
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "07-tendermint": null,
+    "assets": {
+      "params": {
+        "gateways": [
+          "0x0000000000000000000000000000000000000901"
+        ]
+      },
+      "client_chains": [
+        {
+          "name": "Imuachain",
+          "meta_info": "The (native) Imuachain",
+          "chain_id": "0",
+          "imua_chain_index": "0",
+          "finalization_blocks": "10",
+          "layer_zero_chain_id": "0",
+          "signature_type": "",
+          "address_length": 20
+        },
+        {
+          "name": "Localnet",
+          "meta_info": "Ethereum-testnet known as Localnet",
+          "finalization_blocks": 10,
+          "layer_zero_chain_id": 40217,
+          "address_length": 20
+        }
+      ],
+      "tokens": [
+        {
+          "asset_basic_info": {
+            "name": "Native Staked ETH",
+            "symbol": "ETH",
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": "18",
+            "layer_zero_chain_id": 40217,
+            "imua_chain_index": "0",
+            "meta_info": "ReStaked ETH"
+          },
+          "staking_total_amount": "32000000000000000000"
+        },
+        {
+          "asset_basic_info": {
+            "name": "Native IM token",
+            "symbol": "IMUA",
+            "address": "0x0000000000000000000000000000000000000000",
+            "decimals": 18,
+            "layer_zero_chain_id": "0",
+            "imua_chain_index": "0",
+            "meta_info": "IMUA native to Imuachain"
+          },
+          "staking_total_amount": "0"
+        },
+        {
+          "asset_basic_info": {
+            "name": "MyToken1",
+            "symbol": "MT1",
+            "address": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b",
+            "decimals": "18",
+            "layer_zero_chain_id": 40217,
+            "imua_chain_index": "1",
+            "meta_info": "Mytoken1"
+          },
+          "staking_total_amount": "45000000000000000000000"
+        },
+        {
+          "asset_basic_info": {
+            "name": "MyToken2",
+            "symbol": "MT2",
+            "address": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7",
+            "decimals": "6",
+            "layer_zero_chain_id": 40217,
+            "imua_chain_index": "2",
+            "meta_info": "Mytoken2"
+          },
+          "staking_total_amount": "28200000000"
+        }
+      ],
+      "deposits": [
+        {
+          "staker": "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "600000000",
+                "withdrawable_amount": "200000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "3000000000000000000000",
+                "withdrawable_amount": "2000000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "600000000",
+                "withdrawable_amount": "200000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "3000000000000000000000",
+                "withdrawable_amount": "2000000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0x1cbd3b2770909d4e10f157cabc84c7264073c9ec_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "31000000000000000000",
+                "withdrawable_amount": "13000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "600000000",
+                "withdrawable_amount": "200000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "3000000000000000000000",
+                "withdrawable_amount": "2000000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "6000000000",
+                "withdrawable_amount": "5720000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "6000000000000000000000",
+                "withdrawable_amount": "5290000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "6000000000",
+                "withdrawable_amount": "5000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "6000000000000000000000",
+                "withdrawable_amount": "5300000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "600000000",
+                "withdrawable_amount": "200000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "3000000000000000000000",
+                "withdrawable_amount": "2000000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "600000000",
+                "withdrawable_amount": "200000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "3000000000000000000000",
+                "withdrawable_amount": "2000000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "600000000",
+                "withdrawable_amount": "200000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "3000000000000000000000",
+                "withdrawable_amount": "2000000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "600000000",
+                "withdrawable_amount": "200000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "3000000000000000000000",
+                "withdrawable_amount": "2000000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "6000000000",
+                "withdrawable_amount": "5200000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "6000000000000000000000",
+                "withdrawable_amount": "5200000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        },
+        {
+          "staker": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+          "deposits": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_deposit_amount": "6000000000",
+                "withdrawable_amount": "5400000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_deposit_amount": "6000000000000000000000",
+                "withdrawable_amount": "5600000000000000000000",
+                "pending_undelegation_amount": "0"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_deposit_amount": "0",
+                "withdrawable_amount": "0",
+                "pending_undelegation_amount": "0"
+              }
+            }
+          ]
+        }
+      ],
+      "operator_assets": [
+        {
+          "operator": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "assets_state": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_amount": "1620814145",
+                "pending_undelegation_amount": "0",
+                "total_share": "1620814145",
+                "operator_share": "550000000"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_amount": "1067332193343504503200",
+                "pending_undelegation_amount": "0",
+                "total_share": "1067332193343504503200",
+                "operator_share": "300000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_amount": "0",
+                "pending_undelegation_amount": "0",
+                "total_share": "0",
+                "operator_share": "0"
+              }
+            }
+          ]
+        },
+        {
+          "operator": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "assets_state": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_amount": "1285461882",
+                "pending_undelegation_amount": "0",
+                "total_share": "1285461882",
+                "operator_share": "0"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_amount": "3373417992391895835100",
+                "pending_undelegation_amount": "0",
+                "total_share": "3373417992391895835100",
+                "operator_share": "300000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_amount": "0",
+                "pending_undelegation_amount": "0",
+                "total_share": "0",
+                "operator_share": "0"
+              }
+            }
+          ]
+        },
+        {
+          "operator": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "assets_state": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_amount": "1823538342",
+                "pending_undelegation_amount": "0",
+                "total_share": "1823538342",
+                "operator_share": "400000000"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_amount": "466983335984095143820",
+                "pending_undelegation_amount": "0",
+                "total_share": "466983335984095143820",
+                "operator_share": "100000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_amount": "0",
+                "pending_undelegation_amount": "0",
+                "total_share": "0",
+                "operator_share": "0"
+              }
+            }
+          ]
+        },
+        {
+          "operator": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "assets_state": [
+            {
+              "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+              "info": {
+                "total_amount": "750185631",
+                "pending_undelegation_amount": "0",
+                "total_share": "750185631",
+                "operator_share": "400000000"
+              }
+            },
+            {
+              "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+              "info": {
+                "total_amount": "4702266478280504517900",
+                "pending_undelegation_amount": "0",
+                "total_share": "4702266478280504517900",
+                "operator_share": "200000000000000000000"
+              }
+            },
+            {
+              "asset_id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+              "info": {
+                "total_amount": "18000000000000000000",
+                "pending_undelegation_amount": "0",
+                "total_share": "18000000000000000000",
+                "operator_share": "0"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": []
+    },
+    "authz": {
+      "authorization": []
+    },
+    "avs": {
+      "avs_infos": [],
+      "task_infos": [],
+      "bls_pub_keys": [],
+      "task_result_infos": [],
+      "challenge_infos": [],
+      "task_nums": [],
+      "chain_id_infos": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [],
+      "supply": [],
+      "denom_metadata": [],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "stake",
+        "amount": "1000"
+      }
+    },
+    "delegation": {
+      "params": {
+        "instant_undelegation_penalty": 25
+      },
+      "associations": [
+        {
+          "staker_id": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19",
+          "operator": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9"
+        },
+        {
+          "staker_id": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+          "operator": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5"
+        },
+        {
+          "staker_id": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+          "operator": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4"
+        },
+        {
+          "staker_id": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+          "operator": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2"
+        }
+      ],
+      "delegation_states": [
+        {
+          "key": "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "98687735",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "97923126",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "189076906",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "14312233",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "72476027620500643319",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "296202570341699405010",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "16711905140585020546",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "614609496897214931130",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "98687735",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "97923126",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "189076906",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "14312233",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "72476027620500643319",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "296202570341699405010",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "16711905140585020546",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "614609496897214931130",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x1cbd3b2770909d4e10f157cabc84c7264073c9ec_0x9d19/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "18000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "98687735",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "97923126",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "189076906",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "14312233",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "72476027620500643319",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "296202570341699405010",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "16711905140585020546",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "614609496897214931130",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "100000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "100000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "80000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "110000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "300000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "200000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "100000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "550000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "400000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "50000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "300000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "400000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "98687735",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "97923126",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "189076906",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "14312233",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "72476027620500643319",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "296202570341699405010",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "16711905140585020546",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "614609496897214931130",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "98687735",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "97923126",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "189076906",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "14312233",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "72476027620500643319",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "296202570341699405010",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "16711905140585020546",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "614609496897214931130",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "98687735",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "97923126",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "189076906",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "14312233",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "72476027620500643319",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "296202570341699405010",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "16711905140585020546",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "614609496897214931130",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "98687735",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "97923126",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "189076906",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "14312233",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "72476027620500643319",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "296202570341699405010",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "16711905140585020546",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "614609496897214931130",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "80000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "200000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "400000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "120000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "100000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "500000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "100000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "100000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "200000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "400000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "states": {
+            "undelegatable_share": "50000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "states": {
+            "undelegatable_share": "100000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "states": {
+            "undelegatable_share": "50000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        },
+        {
+          "key": "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "states": {
+            "undelegatable_share": "200000000000000000000",
+            "wait_undelegation_amount": "0"
+          }
+        }
+      ],
+      "stakers_by_operator": [
+        {
+          "key": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+            "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19",
+            "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19",
+            "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19",
+            "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19",
+            "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19",
+            "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19",
+            "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19",
+            "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19"
+          ]
+        },
+        {
+          "key": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+            "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19",
+            "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19",
+            "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19",
+            "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19",
+            "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19",
+            "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19",
+            "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19",
+            "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19"
+          ]
+        },
+        {
+          "key": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+          "stakers": [
+            "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+            "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19",
+            "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19",
+            "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19",
+            "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19",
+            "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19",
+            "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19",
+            "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19"
+          ]
+        },
+        {
+          "key": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+            "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19",
+            "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19",
+            "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19",
+            "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19",
+            "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19",
+            "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19",
+            "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19",
+            "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19"
+          ]
+        },
+        {
+          "key": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+          "stakers": [
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+            "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19",
+            "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19",
+            "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19",
+            "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19",
+            "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19",
+            "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19",
+            "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19",
+            "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19"
+          ]
+        },
+        {
+          "key": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+            "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19",
+            "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19",
+            "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19",
+            "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19",
+            "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19",
+            "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19",
+            "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19",
+            "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19"
+          ]
+        },
+        {
+          "key": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0x884958ffb23885a13b5d51617f05f2b8b20f0405_0x9d19",
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+            "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19",
+            "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19",
+            "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19",
+            "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19",
+            "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19",
+            "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19",
+            "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19",
+            "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19"
+          ]
+        },
+        {
+          "key": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+          "stakers": [
+            "0xdd779732a91a801bb65c4acf867c55606fc19630_0x9d19",
+            "0xbca20b69c8f433af9d11847215fbbd847cdc7a89_0x9d19",
+            "0x2ab68e90a33eda876023c310ddd7cb6c7532fab7_0x9d19",
+            "0x90f79bf6eb2c4f870365e785982e1f101e93b906_0x9d19",
+            "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65_0x9d19",
+            "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc_0x9d19",
+            "0x976ea74026e726554db657fa54763abd0c3a0aa9_0x9d19",
+            "0x14dc79964da2c08b23698b3d3cc7ca32193d9955_0x9d19",
+            "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f_0x9d19",
+            "0xa0ee7a142d267c1f36714e4a8f75612f20a79720_0x9d19"
+          ]
+        },
+        {
+          "key": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "stakers": [
+            "0x1cbd3b2770909d4e10f157cabc84c7264073c9ec_0x9d19"
+          ]
+        }
+      ],
+      "undelegations": [],
+      "last_undelegation_id": "0"
+    },
+    "dogfood": {
+      "params": {
+        "epochs_until_unbonded": 7,
+        "epoch_identifier": "minute",
+        "max_validators": 100,
+        "historical_entries": 10000,
+        "asset_ids": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+          "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19"
+        ],
+        "min_self_delegation": "0"
+      },
+      "val_set": [
+        {
+          "public_key": "0x99ec00bda4c0d36035a76896a350b30ab33c67f9cf3b5c0bb86cbab72a49c54b",
+          "power": "14622561"
+        },
+        {
+          "public_key": "0x84f6daec8b5925757d5610e492e73a92e8d22a4086f5b461ce0fe1a87086eebe",
+          "power": "12801122"
+        },
+        {
+          "public_key": "0xe0cb02001931bdfd35981986293a5c6266e5555213be266ced989a8345d25dc4",
+          "power": "7859195"
+        },
+        {
+          "public_key": "0x150a4ffd8cf2563c84037a71bcea07f7a60b5d6d639030a627e1c264832ec3cb",
+          "power": "6934761"
+        }
+      ],
+      "opt_out_expiries": [],
+      "consensus_addrs_to_prune": [],
+      "undelegation_maturities": [],
+      "last_total_power": "42217639"
+    },
+    "epochs": {
+      "epochs": [
+        {
+          "identifier": "day",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "86400s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "hour",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "3600s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "minute",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "60s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "week",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "604800s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        }
+      ]
+    },
+    "erc20": {
+      "params": {
+        "enable_erc20": true,
+        "enable_evm_hook": true
+      },
+      "token_pairs": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "evm": {
+      "accounts": [],
+      "params": {
+        "evm_denom": "hua",
+        "enable_create": true,
+        "enable_call": true,
+        "extra_eips": [],
+        "chain_config": {
+          "homestead_block": "0",
+          "dao_fork_block": "0",
+          "dao_fork_support": true,
+          "eip150_block": "0",
+          "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "eip155_block": "0",
+          "eip158_block": "0",
+          "byzantium_block": "0",
+          "constantinople_block": "0",
+          "petersburg_block": "0",
+          "istanbul_block": "0",
+          "muir_glacier_block": "0",
+          "berlin_block": "0",
+          "london_block": "0",
+          "arrow_glacier_block": "0",
+          "gray_glacier_block": "0",
+          "merge_netsplit_block": "0",
+          "shanghai_block": "0",
+          "cancun_block": "0"
+        },
+        "allow_unprotected_txs": false,
+        "active_precompiles": [
+          "0x0000000000000000000000000000000000000400",
+          "0x0000000000000000000000000000000000000804",
+          "0x0000000000000000000000000000000000000805",
+          "0x0000000000000000000000000000000000000806",
+          "0x0000000000000000000000000000000000000809",
+          "0x0000000000000000000000000000000000000901"
+        ],
+        "evm_channels": []
+      }
+    },
+    "feedistribution": {
+      "params": {
+        "community_tax": "0.030000000000000000"
+      },
+      "all_avs_reward_assets": [
+        {
+          "avs": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "avs_reward_assets": [
+            {
+              "asset_basic_info": {
+                "name": "Native IM token",
+                "symbol": "hua",
+                "address": "0x0000000000000000000000000000000000000000",
+                "decimals": 0,
+                "layer_zero_chain_id": "0",
+                "imua_chain_index": "0",
+                "meta_info": "IMUA native to Imuachain"
+              },
+              "reward_asset_state": {
+                "reward_pool_balance": "0.000000000000000000",
+                "reward_pool_total": "0.000000000000000000",
+                "reward_allocation_total": "0.000000000000000000"
+              }
+            }
+          ]
+        }
+      ],
+      "all_avs_reward_params": [],
+      "all_avs_fee_pools": [],
+      "all_avs_reward_distributions": [],
+      "all_operator_outstanding_rewards": [],
+      "all_delegation_change_infos": [],
+      "all_delegation_starting_infos": [],
+      "all_operator_historical_rewards": [],
+      "all_operator_current_rewards": [],
+      "all_operator_accumulated_commission": [],
+      "all_operator_slash_events": [],
+      "all_staker_outstanding_rewards": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feemarket": {
+      "params": {
+        "no_base_fee": false,
+        "base_fee_change_denominator": 8,
+        "elasticity_multiplier": 2,
+        "enable_height": "0",
+        "base_fee": "1000000000",
+        "min_gas_price": "0.000000000000000000",
+        "min_gas_multiplier": "0.500000000000000000"
+      },
+      "block_gas": "0"
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "stake",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800s",
+        "voting_period": "172800s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint",
+            "09-localhost"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "immint": {
+      "params": {
+        "mint_denom": "hua",
+        "epoch_reward": "20",
+        "epoch_identifier": "day"
+      }
+    },
+    "imslash": {
+      "params": {}
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": [
+            "*"
+          ]
+        }
+      }
+    },
+    "operator": {
+      "operators": [
+        {
+          "operator_address": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "operator_info": {
+            "earnings_addr": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+            "approve_addr": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+            "operator_meta_info": "validator2",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "lz_client_chain_id": 40217,
+                  "client_chain_earning_addr": "0x884958ffB23885a13B5D51617f05F2B8b20f0405"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "rate": "0",
+                "max_rate": "1",
+                "max_change_rate": "1"
+              },
+              "update_time": "2025-07-04T03:33:24.000Z"
+            }
+          }
+        },
+        {
+          "operator_address": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "operator_info": {
+            "earnings_addr": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+            "approve_addr": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+            "operator_meta_info": "validator4",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "lz_client_chain_id": 40217,
+                  "client_chain_earning_addr": "0x2AB68E90A33Eda876023C310ddd7cb6C7532fAb7"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "rate": "0",
+                "max_rate": "1",
+                "max_change_rate": "1"
+              },
+              "update_time": "2025-07-04T03:33:24.000Z"
+            }
+          }
+        },
+        {
+          "operator_address": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "operator_info": {
+            "earnings_addr": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+            "approve_addr": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+            "operator_meta_info": "validator3",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "lz_client_chain_id": 40217,
+                  "client_chain_earning_addr": "0xbca20b69c8f433af9D11847215fbBd847cDC7A89"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "rate": "0",
+                "max_rate": "1",
+                "max_change_rate": "1"
+              },
+              "update_time": "2025-07-04T03:33:24.000Z"
+            }
+          }
+        },
+        {
+          "operator_address": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "operator_info": {
+            "earnings_addr": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+            "approve_addr": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+            "operator_meta_info": "validator1",
+            "client_chain_earnings_addr": {
+              "earning_info_list": [
+                {
+                  "lz_client_chain_id": 40217,
+                  "client_chain_earning_addr": "0xdd779732A91a801bb65c4acF867c55606fC19630"
+                }
+              ]
+            },
+            "commission": {
+              "commission_rates": {
+                "rate": "0",
+                "max_rate": "1",
+                "max_change_rate": "1"
+              },
+              "update_time": "2025-07-04T03:33:24.000Z"
+            }
+          }
+        }
+      ],
+      "operator_records": [
+        {
+          "operator_address": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0xe0cb02001931bdfd35981986293a5c6266e5555213be266ced989a8345d25dc4"
+            }
+          ]
+        },
+        {
+          "operator_address": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0x84f6daec8b5925757d5610e492e73a92e8d22a4086f5b461ce0fe1a87086eebe"
+            }
+          ]
+        },
+        {
+          "operator_address": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0x150a4ffd8cf2563c84037a71bcea07f7a60b5d6d639030a627e1c264832ec3cb"
+            }
+          ]
+        },
+        {
+          "operator_address": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "chains": [
+            {
+              "chain_id": "imuachaintestnet_233",
+              "consensus_key": "0x99ec00bda4c0d36035a76896a350b30ab33c67f9cf3b5c0bb86cbab72a49c54b"
+            }
+          ]
+        }
+      ],
+      "opt_states": [
+        {
+          "key": "im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "opted_in_height": 0,
+            "opted_out_height": "18446744073709551615"
+          }
+        },
+        {
+          "key": "im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "opted_in_height": 0,
+            "opted_out_height": "18446744073709551615"
+          }
+        },
+        {
+          "key": "im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "opted_in_height": 0,
+            "opted_out_height": "18446744073709551615"
+          }
+        },
+        {
+          "key": "im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "opt_info": {
+            "opted_in_height": 0,
+            "opted_out_height": "18446744073709551615"
+          }
+        }
+      ],
+      "avs_usd_values": [
+        {
+          "avs_addr": "0xedb7a6077ab45df72e57bc2ea091f9183429720e",
+          "value": {
+            "amount": "42217639.360000000001"
+          }
+        }
+      ],
+      "operator_usd_values": [
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5",
+          "opted_usd_value": {
+            "self_usd_value": "2505275.5",
+            "total_usd_value": "7859195.1925493537748",
+            "active_usd_value": "7859195.1925493537748"
+          }
+        },
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9",
+          "opted_usd_value": {
+            "self_usd_value": "779766",
+            "total_usd_value": "12801122.221964643493",
+            "active_usd_value": "12801122.221964643493"
+          }
+        },
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4",
+          "opted_usd_value": {
+            "self_usd_value": "1514838",
+            "total_usd_value": "6934761.0315297597797",
+            "active_usd_value": "6934761.0315297597797"
+          }
+        },
+        {
+          "key": "0xedb7a6077ab45df72e57bc2ea091f9183429720e/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2",
+          "opted_usd_value": {
+            "self_usd_value": "1774760",
+            "total_usd_value": "14622560.913956242953",
+            "active_usd_value": "14622560.913956242953"
+          }
+        }
+      ],
+      "slash_states": [],
+      "pre_cons_keys": [],
+      "operator_key_removals": [],
+      "operator_asset_usd_values": [
+        {
+          "key": "minute/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "46785.96"
+          }
+        },
+        {
+          "key": "minute/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+          "value": {
+            "amount": "12222225.075676252953"
+          }
+        },
+        {
+          "key": "minute/im1m4mewv4fr2qphdjuft8cvlz4vphur93s3347e2/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+          "value": {
+            "amount": "2353549.87827999"
+          }
+        },
+        {
+          "key": "minute/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "0"
+          }
+        },
+        {
+          "key": "minute/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+          "value": {
+            "amount": "2774231.1835823037748"
+          }
+        },
+        {
+          "key": "minute/im13py43laj8zz6zw6a29sh7p0jhzeq7pq923hdp5/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+          "value": {
+            "amount": "5084964.00896705"
+          }
+        },
+        {
+          "key": "minute/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "0"
+          }
+        },
+        {
+          "key": "minute/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+          "value": {
+            "amount": "1213792.4265565797797"
+          }
+        },
+        {
+          "key": "minute/im1hj3qk6wg7se6l8g3s3ept7aas37dc75fx0urg4/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+          "value": {
+            "amount": "5720968.60497318"
+          }
+        },
+        {
+          "key": "minute/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+          "value": {
+            "amount": "0"
+          }
+        },
+        {
+          "key": "minute/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19",
+          "value": {
+            "amount": "8768255.5141848634925"
+          }
+        },
+        {
+          "key": "minute/im192mgay9r8mdgwcprcvgdm47td36n974h4ay6c9/0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+          "value": {
+            "amount": "4032866.70777978"
+          }
+        }
+      ]
+    },
+    "oracle": {
+      "params": {
+        "chains": [
+          {
+            "name": "-",
+            "desc": "-"
+          },
+          {
+            "name": "Ethereum",
+            "desc": "-"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "",
+            "chain_id": "0",
+            "contract_address": "",
+            "decimal": 0,
+            "active": false,
+            "asset_id": ""
+          },
+          {
+            "name": "nstETH",
+            "chain_id": 1,
+            "contract_address": "",
+            "active": true,
+            "asset_id": "NST_0x9d19",
+            "decimal": 9
+          },
+          {
+            "name": "ETH",
+            "chain_id": 1,
+            "contract_address": "0x72bb9c7ffbE2Ed234e53bc64862DdA6d9fFF333b",
+            "active": true,
+            "asset_id": "0x72bb9c7ffbe2ed234e53bc64862dda6d9fff333b_0x9d19,0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_0x9d19",
+            "decimal": 8
+          },
+          {
+            "name": "wstETH",
+            "chain_id": 1,
+            "contract_address": "0x6BdBb69660E6849b98e8C524d266a0005D3655F7",
+            "active": true,
+            "asset_id": "0x6bdbb69660e6849b98e8c524d266a0005d3655f7_0x9d19",
+            "decimal": 8
+          }
+        ],
+        "sources": [
+          {
+            "name": "0 position is reserved",
+            "entry": null,
+            "valid": false,
+            "deterministic": false
+          },
+          {
+            "deterministic": true,
+            "name": "Chainlink",
+            "entry": {
+              "offchain": {
+                "0": ""
+              },
+              "onchain": {}
+            },
+            "valid": true
+          }
+        ],
+        "rules": [
+          {
+            "source_ids": [],
+            "nom": null
+          },
+          {
+            "source_ids": [
+              "0"
+            ],
+            "nom": null
+          },
+          {
+            "source_ids": [
+              "1"
+            ],
+            "nom": null
+          },
+          {
+            "source_ids": [
+              "0"
+            ],
+            "nom": {
+              "source_ids": [
+                "1"
+              ],
+              "minimum": "1"
+            }
+          }
+        ],
+        "token_feeders": [
+          {
+            "token_id": "0",
+            "rule_id": "0",
+            "start_round_id": "0",
+            "start_base_block": "0",
+            "interval": "0",
+            "end_block": "0"
+          },
+          {
+            "token_id": "1",
+            "rule_id": "3",
+            "start_round_id": "1",
+            "start_base_block": "20",
+            "interval": "30",
+            "end_block": "0"
+          },
+          {
+            "token_id": "2",
+            "rule_id": "2",
+            "start_round_id": "1",
+            "start_base_block": "5",
+            "interval": "7",
+            "end_block": "0"
+          },
+          {
+            "token_id": "3",
+            "rule_id": "2",
+            "start_round_id": "1",
+            "start_base_block": "20",
+            "interval": "30",
+            "end_block": "0"
+          }
+        ],
+        "max_nonce": 3,
+        "threshold_a": 2,
+        "threshold_b": 3,
+        "mode": "CONSENSUS_MODE_ASAP",
+        "max_det_id": 5,
+        "max_size_prices": 100,
+        "slashing": {
+          "reported_rounds_window": "100",
+          "min_reported_per_window": "0.500000000000000000",
+          "oracle_miss_jail_duration": "600s",
+          "oracle_malicious_jail_duration": "2592000s",
+          "slash_fraction_malicious": "0.100000000000000000"
+        },
+        "piece_size_byte": 48000,
+        "epoch_identifier": "minute"
+      },
+	  "prices_list": [
+		  {
+			  "next_round_id": "1",
+			  "price_list": [
+				  {
+					  "decimal": "6",
+					  "price": "1111111",
+					  "round_id": "0"
+				  }
+			  ],
+			  "token_id": "2"
+		  }
+	  ],
+	  "validator_update_block": null,
+	  "index_recent_params": null,
+	  "index_recent_msg": null,
+	  "recent_msg_list": [],
+	  "recent_params_list": [],
+	  "staker_infos_assets": [
+		  {
+			  "chain_id": "40217",
+			  "nst_version_info": {
+				  "feed_version": {
+					  "deposit_amount": "32000000000",
+					  "version": "1"
+				  },
+				  "feed_withdraw_version": "2",
+				  "version": {
+					  "deposit_amount": "32000000000",
+					  "version": "1"
+				  },
+				  "withdraw_version": "2"
+			  },
+			  "staker_infos": [
+				  {
+					  "staker_addr": "0x1cbd3b2770909d4e10f157cabc84c7264073c9ec",
+					  "staker_index": 0,
+					  "validator_list": [
+						  {
+							  "deposit_amount": "32000000000",
+							  "validator_pubkey": "0x0000000000000000000000000000000000000000000000000000000000000040",
+							  "version": "1"
+						  }
+					  ],
+					  "balance_list": [
+						  {
+							  "round_id": 0,
+							  "block": 1,
+							  "index": 1,
+							  "balance": "32000000000",
+							  "change": "ACTION_DEPOSIT"
+						  }
+					  ],
+					  "withdraw_version": "2"
+				  }
+			  ]
+		  }
+	  ],
+	  "validator_report_infos": [],
+	  "validator_missed_rounds": []
+	},
+	"params": null,
+	"slashing": {
+		"params": {
+			"signed_blocks_window": "100",
+			"min_signed_per_window": "0.500000000000000000",
+			"downtime_jail_duration": "600s",
+			"slash_fraction_double_sign": "0.050000000000000000",
+			"slash_fraction_downtime": "0.010000000000000000"
+		},
+		"signing_infos": [],
+		"missed_blocks": []
+	},
+	"transfer": {
+		"port_id": "transfer",
+		"denom_traces": [],
+		"params": {
+			"send_enabled": true,
+			"receive_enabled": true
+		},
+		"total_escrowed": []
+	},
+	"upgrade": {},
+	"vesting": {}
+  }
+}

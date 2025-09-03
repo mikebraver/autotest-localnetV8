@@ -1,0 +1,24 @@
+tokens:
+- token: ETHUSDT
+  sources: chainlink
+- token: WSTETHUSDT
+  sources: chainlink
+- token: NSTETH
+  sources: beaconchain
+- token: XRPUSDT
+  sources: chainlink
+- token: BTCUSDT
+  sources: chainlink
+sender:
+  mnemonic: ''
+  path: /Users/yc/autotest/localnetV8/node3/config
+imua:
+  chainid: imuachaintestnet_233-8
+  appName: imua
+  grpc: 127.0.0.1:10012
+  ws: ws://127.0.0.1:19998/websocket
+  rpc: http://127.0.0.1:19998
+debugger:
+  grpc: :40002
+status:
+  grpc: 50002  
